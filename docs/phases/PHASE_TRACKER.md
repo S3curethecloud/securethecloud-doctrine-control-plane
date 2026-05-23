@@ -2,7 +2,7 @@
 
 **Project:** SecureTheCloud Doctrine Control Plane
 **Repository:** `S3curethecloud/securethecloud-doctrine-control-plane`
-**Current Status:** Phase 0 / Repository Baseline Complete
+**Current Status:** Phase 1 / Portfolio Doctrine Baseline Complete
 **Last Updated:** 2026-05-23
 
 ## Phase 0 — Repository Baseline
@@ -42,17 +42,30 @@
 
 ### Checklist
 
-- [ ] Create `docs/portfolio/SECURETHECLOUD_ENTERPRISE_PRODUCT_PORTFOLIO.md`
-- [ ] Create `docs/portfolio/SHARED_TRUST_FABRIC.md`
-- [ ] Create `docs/portfolio/COMPOSITION_LAYER_DOCTRINE.md`
-- [ ] Create `docs/portfolio/SENTINEL_CONTROL_POINT_RULE.md`
-- [ ] Create `docs/portfolio/SUITE_CATALOG.md`
-- [ ] Create `docs/portfolio/PRODUCT_PACKAGING_BOUNDARIES.md`
-- [ ] Define four customer-offerable suites
-- [ ] Define Shared Trust Fabric
-- [ ] Freeze Composition Layer rules
-- [ ] Canonicalize SENTINEL control-point doctrine
-- [ ] Record Phase 1 evidence
+- [x] Create `docs/portfolio/SECURETHECLOUD_ENTERPRISE_PRODUCT_PORTFOLIO.md`
+- [x] Create `docs/portfolio/SHARED_TRUST_FABRIC.md`
+- [x] Create `docs/portfolio/COMPOSITION_LAYER_DOCTRINE.md`
+- [x] Create `docs/portfolio/SENTINEL_CONTROL_POINT_RULE.md`
+- [x] Create `docs/portfolio/SUITE_CATALOG.md`
+- [x] Create `docs/portfolio/PRODUCT_PACKAGING_BOUNDARIES.md`
+- [x] Define four customer-offerable suites
+- [x] Define Shared Trust Fabric
+- [x] Freeze Composition Layer rules
+- [x] Canonicalize SENTINEL control-point doctrine
+- [x] Record Phase 1 evidence
+
+### Evidence
+
+- Four customer-offerable suites frozen:
+  - SecureTheCloud Agent Blackbox Suite
+  - SecureTheCloud Compliance Evidence Suite
+  - SecureTheCloud Runtime Assurance Suite
+  - SecureTheCloud Risk Intelligence Suite
+- Shared Trust Fabric defined as a shared substrate, not a fifth customer-offerable suite.
+- Composition Layer rule frozen: composition may package and present but may not create authority or bypass SENTINEL.
+- SENTINEL control-point doctrine canonicalized for runtime-impacting allow, deny, admission, enforcement, and production-control outcomes.
+- Product packaging boundaries defined: packaging is not authority and must not merge suite roles.
+- Agent sharing rule clarified: share the repo and `AGENTS.md` immediately; share Markdown doctrine after Phase 1; share machine-readable JSON contracts only after Phase 3 creates and validates them.
 
 ## Phase 2 — Module Authority Matrix
 
