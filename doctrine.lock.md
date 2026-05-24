@@ -1,7 +1,7 @@
 # Doctrine Lock
 
-**Status:** Phase 1 / Portfolio Doctrine Baseline Complete
-**Doctrine Version:** 0.1.0-portfolio-baseline
+**Status:** Phase 2 / Module Authority Matrix Complete
+**Doctrine Version:** 0.2.0-authority-baseline
 **Last Updated:** 2026-05-23
 
 ## Canonical statement
@@ -27,7 +27,7 @@ Other agents must not invent suite membership, module authority, callable interf
 ### Agent sharing rule
 
 - Share the repository and root `AGENTS.md` immediately.
-- Share Phase 1 Markdown doctrine files after Phase 1 is recorded complete.
+- Share Phase 1 and Phase 2 Markdown doctrine files after Phase 2 is recorded complete.
 - Do not instruct agents to consume machine-readable JSON contracts until Phase 3 creates and validates them.
 - Until Phase 3 is complete, JSON contract paths are reserved placeholders, not active integration dependencies.
 
@@ -76,12 +76,51 @@ Packaging is not authority.
 
 Customer packages may combine suite visibility, but they must not merge suite roles, expand module authority, hide forbidden actions, bypass SENTINEL, or claim SOC 2 certification from SOC 2-aligned documentation.
 
+### Status taxonomy rule
+
+Agents must use the status values defined in `docs/portfolio/STATUS_TAXONOMY.md`.
+
+Agents must not invent local module lifecycle, suite/packaging, authority, evidence, interface, or category values.
+
+### Module authority rule
+
+No module may claim authority outside `docs/portfolio/MODULE_AUTHORITY_MATRIX.md`.
+
+Any module not listed in the matrix is an `unregistered_candidate` with `no_runtime_authority`.
+
+Suite membership does not create authority.
+
+Packaging does not create authority.
+
+Composition does not create authority.
+
+Evidence does not create enforcement authority.
+
+Explanation does not create authorization authority.
+
+### Universal forbidden actions rule
+
+Unless explicitly granted by future doctrine and phase evidence, modules are forbidden from:
+
+- issuing tokens
+- granting authorization
+- creating runtime sessions
+- mutating provider resources
+- mutating Kubernetes resources
+- executing Helm deployments
+- exposing live backend APIs
+- performing production traffic cutover
+- enforcing runtime allow/deny decisions
+- bypassing SENTINEL
+- inventing suite membership
+- inventing authority
+- inventing status taxonomy values
+- claiming SOC 2 certification from SOC 2-aligned documentation
+
 ## Unfrozen pending doctrine
 
 The following areas are not yet frozen and must be completed in later phases:
 
-- module authority matrix
-- status taxonomy
 - schema definitions
 - machine-readable portfolio contracts
 - SOC 2 traceability documents
