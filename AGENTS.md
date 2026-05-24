@@ -6,7 +6,7 @@ All agents working on SecureTheCloud products, modules, suites, evidence surface
 
 ## Mandatory read-before-build files
 
-Before proposing or implementing any suite, module, authority, callable interface, enforcement pathway, evidence surface, or product-packaging change, agents must read the following files when present:
+Before proposing or implementing any suite, module, authority, callable interface, enforcement pathway, evidence surface, or product-packaging change, agents must read the following files:
 
 1. `doctrine.lock.md`
 2. `docs/portfolio/SUITE_CATALOG.md`
@@ -19,6 +19,25 @@ Before proposing or implementing any suite, module, authority, callable interfac
 9. `contracts/portfolio/authority_matrix.json`
 10. `contracts/portfolio/composition_rules.json`
 11. `contracts/portfolio/status_taxonomy.json`
+
+## Active machine-readable contracts
+
+Phase 3 made the following files active shared portfolio contracts:
+
+- `contracts/portfolio/suite_catalog.json`
+- `contracts/portfolio/module_registry.json`
+- `contracts/portfolio/authority_matrix.json`
+- `contracts/portfolio/composition_rules.json`
+- `contracts/portfolio/status_taxonomy.json`
+
+Agents may consume these files for programmatic checks, but must continue to treat `doctrine.lock.md` and the Markdown doctrine files as the human-readable authority source.
+
+## Validation requirement
+
+Contract and schema changes must preserve the validation rules implemented in:
+
+- `tools/validate_doctrine_contracts.py`
+- `.github/workflows/doctrine-validate.yml`
 
 ## Non-negotiable rules
 
