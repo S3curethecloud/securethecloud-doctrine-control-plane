@@ -1,0 +1,71 @@
+{
+  "contract_name": "securethecloud_status_taxonomy",
+  "contract_version": "0.3.0-machine-contract-baseline",
+  "doctrine_phase": "Phase 3 / Shared Machine-Readable Contracts",
+  "last_updated": "2026-05-23",
+  "sharing_status": "active_machine_readable_contract",
+  "module_lifecycle_status": [
+    "doctrine_defined",
+    "planned",
+    "implemented_static",
+    "implementation_complete",
+    "evidence_recorded",
+    "active_read_only",
+    "active_runtime_approved",
+    "blocked",
+    "deprecated",
+    "unregistered_candidate"
+  ],
+  "suite_and_packaging_status": [
+    "customer_offerable",
+    "shared_fabric_dependency",
+    "internal_doctrine_only",
+    "future_candidate",
+    "not_customer_offerable"
+  ],
+  "authority_status": [
+    "no_runtime_authority",
+    "doctrine_only",
+    "shared_contract",
+    "composition_only",
+    "evidence_read_only",
+    "evidence_packaging",
+    "explanation_read_only",
+    "risk_scoring_read_only",
+    "control_point_canonical",
+    "runtime_enforcement_approved",
+    "runtime_enforcement_blocked"
+  ],
+  "module_categories": [
+    "doctrine_control",
+    "shared_trust_fabric",
+    "composition_layer",
+    "control_point",
+    "suite_shell",
+    "agent_evidence",
+    "compliance_evidence",
+    "runtime_assurance",
+    "risk_intelligence",
+    "evidence_surface",
+    "evidence_export",
+    "integration_candidate"
+  ],
+  "evidence_status": [
+    "not_applicable",
+    "evidence_required",
+    "evidence_recorded",
+    "soc2_trace_pending",
+    "soc2_trace_recorded"
+  ],
+  "interface_status": [
+    "read_only_reference",
+    "read_only_query",
+    "customer_presentation",
+    "auditor_presentation",
+    "contract_export",
+    "runtime_control_candidate",
+    "runtime_control_active",
+    "forbidden"
+  ],
+  "default_rule": "Any module not listed in the module registry is unregistered_candidate with no_runtime_authority."
+}
