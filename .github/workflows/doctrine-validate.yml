@@ -1,0 +1,35 @@
+name: Doctrine Contract Validation
+
+on:
+  pull_request:
+    paths:
+      - 'contracts/portfolio/**'
+      - 'schemas/portfolio/**'
+      - 'tools/validate_doctrine_contracts.py'
+      - '.github/workflows/doctrine-validate.yml'
+  push:
+    branches:
+      - main
+    paths:
+      - 'contracts/portfolio/**'
+      - 'schemas/portfolio/**'
+      - 'tools/validate_doctrine_contracts.py'
+      - '.github/workflows/doctrine-validate.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  validate-doctrine-contracts:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Validate doctrine contracts
+        run: python tools/validate_doctrine_contracts.py
