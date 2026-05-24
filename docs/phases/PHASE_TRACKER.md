@@ -2,7 +2,7 @@
 
 **Project:** SecureTheCloud Doctrine Control Plane
 **Repository:** `S3curethecloud/securethecloud-doctrine-control-plane`
-**Current Status:** Phase 1 / Portfolio Doctrine Baseline Complete
+**Current Status:** Phase 2 / Module Authority Matrix Complete
 **Last Updated:** 2026-05-23
 
 ## Phase 0 — Repository Baseline
@@ -73,15 +73,24 @@
 
 ### Checklist
 
-- [ ] Create `docs/portfolio/MODULE_AUTHORITY_MATRIX.md`
-- [ ] Create `docs/portfolio/STATUS_TAXONOMY.md`
-- [ ] Define module categories
-- [ ] Define module status values
-- [ ] Define module authority types
-- [ ] Define callable interfaces
-- [ ] Define forbidden actions per module
-- [ ] Assign all modules to suites, Shared Trust Fabric, or internal doctrine ownership
-- [ ] Record Phase 2 evidence
+- [x] Create `docs/portfolio/MODULE_AUTHORITY_MATRIX.md`
+- [x] Create `docs/portfolio/STATUS_TAXONOMY.md`
+- [x] Define module categories
+- [x] Define module status values
+- [x] Define module authority types
+- [x] Define callable interfaces
+- [x] Define forbidden actions per module
+- [x] Assign all modules to suites, Shared Trust Fabric, or internal doctrine ownership
+- [x] Record Phase 2 evidence
+
+### Evidence
+
+- Status taxonomy created for lifecycle status, suite/packaging status, authority status, module categories, evidence status, and interface status.
+- Module authority matrix created with module IDs, categories, lifecycle status, authority type, callable interfaces, forbidden actions, and membership.
+- Default unregistered-module rule frozen: unregistered modules are `unregistered_candidate` with `no_runtime_authority`.
+- Universal forbidden actions recorded, including token issuance, authorization grants, runtime sessions, provider/Kubernetes mutation, live backend exposure, production traffic cutover, runtime enforcement, and SENTINEL bypass.
+- Suite membership coverage recorded for all baseline modules across the four suites, Shared Trust Fabric, internal doctrine, and future candidates.
+- Phase 3 contract paths remain reserved placeholders until schemas and JSON contracts are created and validated.
 
 ## Phase 3 — Shared Machine-Readable Contracts
 
