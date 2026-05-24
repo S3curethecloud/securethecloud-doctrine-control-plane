@@ -1,7 +1,7 @@
 # Doctrine Lock
 
-**Status:** Phase 2 / Module Authority Matrix Complete
-**Doctrine Version:** 0.2.0-authority-baseline
+**Status:** Phase 3 / Shared Machine-Readable Contracts Complete
+**Doctrine Version:** 0.3.0-machine-contract-baseline
 **Last Updated:** 2026-05-23
 
 ## Canonical statement
@@ -27,9 +27,31 @@ Other agents must not invent suite membership, module authority, callable interf
 ### Agent sharing rule
 
 - Share the repository and root `AGENTS.md` immediately.
-- Share Phase 1 and Phase 2 Markdown doctrine files after Phase 2 is recorded complete.
-- Do not instruct agents to consume machine-readable JSON contracts until Phase 3 creates and validates them.
-- Until Phase 3 is complete, JSON contract paths are reserved placeholders, not active integration dependencies.
+- Share Phase 1 and Phase 2 Markdown doctrine files.
+- Phase 3 JSON contracts are now active shared portfolio contracts.
+- Agents may consume `contracts/portfolio/*.json` for programmatic doctrine checks.
+- Agents must still treat `doctrine.lock.md` and Markdown doctrine files as the human-readable authority source.
+
+### Active machine-readable contracts
+
+The active shared contracts are:
+
+- `contracts/portfolio/suite_catalog.json`
+- `contracts/portfolio/module_registry.json`
+- `contracts/portfolio/authority_matrix.json`
+- `contracts/portfolio/composition_rules.json`
+- `contracts/portfolio/status_taxonomy.json`
+
+The active schemas are:
+
+- `schemas/portfolio/suite_catalog.schema.json`
+- `schemas/portfolio/module_registry.schema.json`
+- `schemas/portfolio/authority_matrix.schema.json`
+
+Validation tooling exists at:
+
+- `tools/validate_doctrine_contracts.py`
+- `.github/workflows/doctrine-validate.yml`
 
 ### Frontend rule
 
@@ -78,13 +100,13 @@ Customer packages may combine suite visibility, but they must not merge suite ro
 
 ### Status taxonomy rule
 
-Agents must use the status values defined in `docs/portfolio/STATUS_TAXONOMY.md`.
+Agents must use the status values defined in `docs/portfolio/STATUS_TAXONOMY.md` and `contracts/portfolio/status_taxonomy.json`.
 
 Agents must not invent local module lifecycle, suite/packaging, authority, evidence, interface, or category values.
 
 ### Module authority rule
 
-No module may claim authority outside `docs/portfolio/MODULE_AUTHORITY_MATRIX.md`.
+No module may claim authority outside `docs/portfolio/MODULE_AUTHORITY_MATRIX.md` and `contracts/portfolio/authority_matrix.json`.
 
 Any module not listed in the matrix is an `unregistered_candidate` with `no_runtime_authority`.
 
@@ -98,31 +120,9 @@ Evidence does not create enforcement authority.
 
 Explanation does not create authorization authority.
 
-### Universal forbidden actions rule
-
-Unless explicitly granted by future doctrine and phase evidence, modules are forbidden from:
-
-- issuing tokens
-- granting authorization
-- creating runtime sessions
-- mutating provider resources
-- mutating Kubernetes resources
-- executing Helm deployments
-- exposing live backend APIs
-- performing production traffic cutover
-- enforcing runtime allow/deny decisions
-- bypassing SENTINEL
-- inventing suite membership
-- inventing authority
-- inventing status taxonomy values
-- claiming SOC 2 certification from SOC 2-aligned documentation
-
 ## Unfrozen pending doctrine
 
 The following areas are not yet frozen and must be completed in later phases:
 
-- schema definitions
-- machine-readable portfolio contracts
 - SOC 2 traceability documents
 - agent consumption guide
-- schema validation workflow
