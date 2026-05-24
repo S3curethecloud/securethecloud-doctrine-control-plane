@@ -12,6 +12,8 @@ import json
 import sys
 from pathlib import Path
 
+from jsonschema import Draft202012Validator
+
 ROOT = Path(__file__).resolve().parents[1]
 
 REQUIRED_FILES = [
@@ -23,6 +25,21 @@ REQUIRED_FILES = [
     "contracts/portfolio/authority_matrix.json",
     "contracts/portfolio/composition_rules.json",
     "contracts/portfolio/status_taxonomy.json",
+]
+
+SCHEMA_CONTRACT_PAIRS = [
+    (
+        "schemas/portfolio/module_registry.schema.json",
+        "contracts/portfolio/module_registry.json",
+    ),
+    (
+        "schemas/portfolio/suite_catalog.schema.json",
+        "contracts/portfolio/suite_catalog.json",
+    ),
+    (
+        "schemas/portfolio/authority_matrix.schema.json",
+        "contracts/portfolio/authority_matrix.json",
+    ),
 ]
 
 CUSTOMER_SUITES = {
@@ -57,6 +74,20 @@ def load_json(path: str) -> object:
 def assert_required_files() -> None:
     for path in REQUIRED_FILES:
         load_json(path)
+
+
+def assert_schema_validation() -> None:
+    for schema_path, contract_path in SCHEMA_CONTRACT_PAIRS:
+        schema = load_json(schema_path)
+        contract = load_json(contract_path)
+        validator = Draft202012Validator(schema)
+        errors = sorted(validator.iter_errors(contract), key=lambda error: error.path)
+        if errors:
+            formatted = "; ".join(
+                f"{contract_path}:{'/'.join(str(part) for part in error.path)}: {error.message}"
+                for error in errors
+            )
+            raise AssertionError(f"JSON Schema validation failed: {formatted}")
 
 
 def assert_suite_catalog() -> None:
@@ -131,6 +162,7 @@ def assert_composition_rules() -> None:
 
 def main() -> int:
     assert_required_files()
+    assert_schema_validation()
     assert_suite_catalog()
     assert_module_and_authority_consistency()
     assert_status_taxonomy()
