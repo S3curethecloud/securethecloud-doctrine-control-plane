@@ -1,7 +1,7 @@
 # Doctrine Lock
 
-**Status:** Phase 4 / SOC 2 Alignment Evidence Complete
-**Doctrine Version:** 0.4.0-soc2-alignment-baseline
+**Status:** Phase 5 / Agent Adoption Gate Complete
+**Doctrine Version:** 0.5.0-agent-adoption-baseline
 **Last Updated:** 2026-05-23
 
 ## Canonical statement
@@ -19,6 +19,16 @@ It is the source of truth for portfolio-level authority, suite composition, modu
 - This repository does not own Helm templates.
 - This repository does not own UI or website assets.
 - This repository does not own module-specific enforcement logic.
+
+### Agent adoption rule
+
+All downstream agents must read `docs/portfolio/AGENT_CONSUMPTION_GUIDE.md` before building or changing SecureTheCloud modules, suites, evidence surfaces, runtime surfaces, product packaging, authority boundaries, or customer-facing claims.
+
+Agents must consume active machine-readable contracts from `contracts/portfolio/*.json` for programmatic checks.
+
+Agents must not create local substitute doctrine.
+
+Agents must stop and request doctrine clarification if Markdown doctrine and JSON contracts appear to conflict.
 
 ### Agent rule
 
@@ -117,4 +127,4 @@ Explanation does not create authorization authority.
 
 The following areas are not yet frozen and must be completed in later phases:
 
-- agent consumption guide
+- optional read-only doctrine portal evaluation

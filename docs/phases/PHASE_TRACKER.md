@@ -2,7 +2,7 @@
 
 **Project:** SecureTheCloud Doctrine Control Plane
 **Repository:** `S3curethecloud/securethecloud-doctrine-control-plane`
-**Current Status:** Phase 4 / SOC 2 Alignment Evidence Complete
+**Current Status:** Phase 5 / Agent Adoption Gate Complete
 **Last Updated:** 2026-05-23
 
 ## Phase 0 — Repository Baseline
@@ -156,12 +156,30 @@
 
 ### Checklist
 
-- [ ] Create `docs/portfolio/AGENT_CONSUMPTION_GUIDE.md`
-- [ ] Add CI workflow for schema validation
-- [ ] Add doctrine PR checklist
-- [ ] Add rule requiring agents to use shared contracts
-- [ ] Add rule forbidding local substitute doctrine
-- [ ] Record Phase 5 evidence
+- [x] Create `docs/portfolio/AGENT_CONSUMPTION_GUIDE.md`
+- [x] Add CI workflow for schema validation
+- [x] Add doctrine PR checklist
+- [x] Add rule requiring agents to use shared contracts
+- [x] Add rule forbidding local substitute doctrine
+- [x] Add final agent adoption rules
+- [x] Add doctrine-read-before-build instructions
+- [x] Clarify Markdown and JSON contract consumption order
+- [x] Clarify SOC 2 claim boundaries
+- [x] Record Phase 5 evidence
+
+### Evidence
+
+- Agent consumption guide created: `docs/portfolio/AGENT_CONSUMPTION_GUIDE.md`
+- Doctrine-read-before-build instructions recorded.
+- Required human-readable doctrine read order recorded.
+- Active machine-readable contract consumption order recorded.
+- Rule requiring downstream agents to use shared contracts recorded.
+- Rule forbidding local substitute doctrine recorded.
+- SOC 2 claim boundaries clarified as readiness evidence only, not certification.
+- SENTINEL non-bypass requirement repeated for downstream agents.
+- Default unregistered-module no-authority rule repeated for downstream agents.
+- Runtime non-scope confirmed.
+- Agent adoption gate status: complete
 
 ## Phase 6 — Optional Read-Only Doctrine Portal Evaluation
 
