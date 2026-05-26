@@ -1,20 +1,20 @@
 # Doctrine Lock
 
-**Status:** Phase 3 / Shared Machine-Readable Contracts Complete
-**Doctrine Version:** 0.3.0-machine-contract-baseline
+**Status:** Phase 4 / SOC 2 Alignment Evidence Complete
+**Doctrine Version:** 0.4.0-soc2-alignment-baseline
 **Last Updated:** 2026-05-23
 
 ## Canonical statement
 
 This repository is the SecureTheCloud doctrine control plane.
 
-It is the source of truth for portfolio-level authority, suite composition, module boundaries, status taxonomy, product packaging, and SOC 2-aligned doctrine evidence.
+It is the source of truth for portfolio-level authority, suite composition, module boundaries, status taxonomy, product packaging, SOC 2-aligned doctrine evidence, and agent-consumable portfolio contracts.
 
 ## Current frozen rules
 
 ### Repository scope
 
-- This repository owns doctrine, schemas, contracts, and evidence traceability.
+- This repository owns doctrine, schemas, contracts, SOC 2-aligned readiness evidence, and evidence traceability.
 - This repository does not own runtime adapter code.
 - This repository does not own Helm templates.
 - This repository does not own UI or website assets.
@@ -22,15 +22,7 @@ It is the source of truth for portfolio-level authority, suite composition, modu
 
 ### Agent rule
 
-Other agents must not invent suite membership, module authority, callable interfaces, enforcement ownership, forbidden actions, or product packaging rules outside this doctrine.
-
-### Agent sharing rule
-
-- Share the repository and root `AGENTS.md` immediately.
-- Share Phase 1 and Phase 2 Markdown doctrine files.
-- Phase 3 JSON contracts are now active shared portfolio contracts.
-- Agents may consume `contracts/portfolio/*.json` for programmatic doctrine checks.
-- Agents must still treat `doctrine.lock.md` and Markdown doctrine files as the human-readable authority source.
+Other agents must not invent suite membership, module authority, callable interfaces, enforcement ownership, forbidden actions, product packaging rules, status taxonomy values, or SENTINEL bypasses outside this doctrine.
 
 ### Active machine-readable contracts
 
@@ -42,26 +34,27 @@ The active shared contracts are:
 - `contracts/portfolio/composition_rules.json`
 - `contracts/portfolio/status_taxonomy.json`
 
-The active schemas are:
+Agents may consume these files for programmatic doctrine checks.
 
-- `schemas/portfolio/suite_catalog.schema.json`
-- `schemas/portfolio/module_registry.schema.json`
-- `schemas/portfolio/authority_matrix.schema.json`
+Agents must still treat `doctrine.lock.md` and Markdown doctrine files as the human-readable authority source.
 
-Validation tooling exists at:
+### SOC 2 readiness rule
 
-- `tools/validate_doctrine_contracts.py`
-- `.github/workflows/doctrine-validate.yml`
+The SOC 2 files under `docs/soc2/` provide SOC 2-aligned readiness evidence.
 
-### Frontend rule
+They do not claim SOC 2 certification.
 
-A frontend is not required for the initial doctrine control-plane role.
+They do not replace an independent SOC 2 examination.
 
-If a frontend is ever added, it must be read-only documentation visualization generated from canonical Markdown and JSON contracts. It must not become the source of truth and must not implement runtime enforcement.
+They do not prove production operating effectiveness over an audit period.
 
-### SOC 2 rule
+### Phase 4 correction record
 
-This repository may provide SOC 2-aligned evidence and traceability, but it does not claim SOC 2 certification.
+- Phase 4 SOC 2 files restored to doctrine-control-plane: true
+- Misplaced Kubernetes Sentinel copies removed: true
+- Doctrine PR merged: true
+- Sentinel cleanup PR merged: true
+- Phase 4 status: complete
 
 ### Customer-offerable suite rule
 
@@ -124,5 +117,4 @@ Explanation does not create authorization authority.
 
 The following areas are not yet frozen and must be completed in later phases:
 
-- SOC 2 traceability documents
 - agent consumption guide

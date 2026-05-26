@@ -2,7 +2,7 @@
 
 **Project:** SecureTheCloud Doctrine Control Plane
 **Repository:** `S3curethecloud/securethecloud-doctrine-control-plane`
-**Current Status:** Phase 3 / Shared Machine-Readable Contracts Complete
+**Current Status:** Phase 4 / SOC 2 Alignment Evidence Complete
 **Last Updated:** 2026-05-23
 
 ## Phase 0 — Repository Baseline
@@ -124,14 +124,31 @@
 
 ### Checklist
 
-- [ ] Create `docs/soc2/SOC2_ALIGNMENT_OVERVIEW.md`
-- [ ] Create `docs/soc2/SOC2_CONTROL_TRACEABILITY.md`
-- [ ] Create `docs/soc2/SOC2_EVIDENCE_REGISTER.md`
-- [ ] Create `docs/soc2/SOC2_CHANGE_MANAGEMENT.md`
-- [ ] Map doctrine files to SOC 2 trust service categories
-- [ ] Map authority boundaries to risk/control objectives
-- [ ] Map change-management workflow to evidence
-- [ ] Record Phase 4 evidence
+- [x] Create `docs/soc2/SOC2_ALIGNMENT_OVERVIEW.md`
+- [x] Create `docs/soc2/SOC2_CONTROL_TRACEABILITY.md`
+- [x] Create `docs/soc2/SOC2_EVIDENCE_REGISTER.md`
+- [x] Create `docs/soc2/SOC2_CHANGE_MANAGEMENT.md`
+- [x] Map doctrine files to SOC 2 trust service categories
+- [x] Map authority boundaries to risk/control objectives
+- [x] Map change-management workflow to evidence
+- [x] Record Phase 4 evidence
+
+### Evidence
+
+- SOC 2 alignment overview created: `docs/soc2/SOC2_ALIGNMENT_OVERVIEW.md`
+- SOC 2 control traceability created: `docs/soc2/SOC2_CONTROL_TRACEABILITY.md`
+- SOC 2 evidence register created: `docs/soc2/SOC2_EVIDENCE_REGISTER.md`
+- SOC 2 change management evidence created: `docs/soc2/SOC2_CHANGE_MANAGEMENT.md`
+- Doctrine artifacts mapped to SOC 2-aligned trust service categories and control themes.
+- Authority boundaries mapped to risk/control objectives.
+- Change-management workflow mapped to readiness evidence.
+- SOC 2 posture confirmed as readiness evidence only, not SOC 2 certification.
+- Phase 4 SOC 2 files restored to doctrine-control-plane: true
+- Misplaced Kubernetes Sentinel copies removed: true
+- Doctrine PR merged: true
+- Sentinel cleanup PR merged: true
+- Phase 4 status: complete
+- Misplaced SOC 2 files were removed from `securethecloud-kubernetes-sentinel`; canonical files now live in `securethecloud-doctrine-control-plane`.
 
 ## Phase 5 — Agent Adoption Gate
 
