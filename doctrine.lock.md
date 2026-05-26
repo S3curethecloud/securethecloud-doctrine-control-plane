@@ -1,7 +1,7 @@
 # Doctrine Lock
 
-**Status:** Phase 5 / Agent Adoption Gate Complete
-**Doctrine Version:** 0.5.0-agent-adoption-baseline
+**Status:** Phase 6 / Optional Read-Only Doctrine Portal Evaluation Complete
+**Doctrine Version:** 0.6.0-read-only-portal-evaluation
 **Last Updated:** 2026-05-23
 
 ## Canonical statement
@@ -123,8 +123,19 @@ Evidence does not create enforcement authority.
 
 Explanation does not create authorization authority.
 
+### Read-only doctrine portal rule
+
+A frontend portal is not required for the doctrine baseline.
+
+A future doctrine portal may be approved only as a read-only generated documentation surface.
+
+A portal must not become the source of truth.
+
+A portal must not edit doctrine, mutate contracts, alter schemas, create authority, change phase status, bypass SENTINEL, claim SOC 2 certification, connect to live backends, create runtime sessions, issue tokens, grant authorization, or implement enforcement logic.
+
+Git remains the canonical source of truth.
+
+
 ## Unfrozen pending doctrine
 
-The following areas are not yet frozen and must be completed in later phases:
-
-- optional read-only doctrine portal evaluation
+No pending doctrine phases remain in the initial doctrine-control-plane baseline.

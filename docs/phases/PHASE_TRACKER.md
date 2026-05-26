@@ -2,7 +2,7 @@
 
 **Project:** SecureTheCloud Doctrine Control Plane
 **Repository:** `S3curethecloud/securethecloud-doctrine-control-plane`
-**Current Status:** Phase 5 / Agent Adoption Gate Complete
+**Current Status:** Phase 6 / Optional Read-Only Doctrine Portal Evaluation Complete
 **Last Updated:** 2026-05-23
 
 ## Phase 0 — Repository Baseline
@@ -187,8 +187,24 @@
 
 ### Checklist
 
-- [ ] Evaluate frontend need
-- [ ] Confirm frontend is not required for doctrine baseline
-- [ ] If approved, define read-only generated-docs scope only
-- [ ] Confirm no runtime control or enforcement logic is added
-- [ ] Record Phase 6 evidence
+- [x] Evaluate frontend need
+- [x] Confirm frontend is not required for doctrine baseline
+- [x] If approved, define read-only generated-docs scope only
+- [x] Confirm no runtime control or enforcement logic is added
+- [x] Create `docs/phases/PHASE_6_OPTIONAL_READ_ONLY_DOCTRINE_PORTAL_EVALUATION.md`
+- [x] Create `docs/portfolio/READ_ONLY_DOCTRINE_PORTAL_EVALUATION.md`
+- [x] Record Phase 6 evidence
+
+### Evidence
+
+- Frontend required for doctrine baseline: false
+- Optional future read-only generated documentation portal evaluated: true
+- Portal as source of truth allowed: false
+- Portal doctrine editing allowed: false
+- Portal runtime behavior allowed: false
+- Portal enforcement logic allowed: false
+- Portal production backend integration allowed: false
+- Portal SOC 2 certification claim allowed: false
+- Git repository remains canonical source of truth.
+- Agents must consume repository doctrine directly and must not wait for a portal.
+- Phase 6 status: complete
