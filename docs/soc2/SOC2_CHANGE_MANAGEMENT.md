@@ -133,3 +133,11 @@ Phase 7 is a doctrine baseline and contract change.
 It updates human-readable doctrine, machine-readable contracts, SOC 2 traceability, and phase evidence while preserving repository non-scope.
 
 No runtime adapter code, Helm templates, UI assets, live backend integrations, token issuance, runtime session creation, authorization behavior, or production enforcement are added.
+
+## Phase 8 downstream adoption change-management record
+
+Phase 8 records downstream adoption evidence and pending adoption backlog for canonical Phase 7 doctrine.
+
+This is an evidence/register update only.
+
+It does not modify runtime behavior, Helm templates, deployment routing, token/session authority, authorization behavior, Vault reference authority, SageMaker runtime authority, provider mutation, Kubernetes mutation, or production enforcement.

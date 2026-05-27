@@ -1,3 +1,10 @@
+## 2026-05-26 — Phase 8 Downstream Doctrine Adoption Evidence Closure
+
+- Recorded completed downstream doctrine adoptions for Aegis/RiskDNA runtime, SENTINEL, ASZ, and Blackbox.
+- Created downstream adoption register.
+- Recorded pending adoption backlog for Risk Exchange, SAF-P, SageMaker Risk Intelligence, and Secret Vault.
+- Preserved no-runtime-authority, no-Helm-packaging, no-production-enforcement, and SOC 2 non-certification boundaries.
+
 ## 2026-05-26 — Phase 7 Aegis Runtime / RiskDNA Doctrine Delta
 
 Added canonical doctrine delta for Aegis Runtime signal context and RiskDNA runtime risk context.

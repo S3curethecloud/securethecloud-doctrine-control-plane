@@ -85,3 +85,10 @@ It does not yet provide operating-effectiveness evidence for a SOC 2 Type 2 repo
 Evidence ID	Artifact	Evidence type	SOC 2 alignment	Owner	Status
 SOC2-EV-026	docs/phases/PHASE_7_AEGIS_RUNTIME_RISKDNA_DOCTRINE_DELTA.md	Boundary evidence	Aegis Runtime / RiskDNA readiness boundary	Doctrine Control Plane	Active
 SOC2-EV-027	contracts/portfolio/module_registry.json and contracts/portfolio/authority_matrix.json Phase 7 records	Contract evidence	Machine-readable Aegis/RiskDNA authority parity	Doctrine Control Plane	Active
+
+## Phase 8 downstream adoption evidence extension
+
+| Evidence ID | Artifact | Evidence type | SOC 2 alignment | Owner | Status |
+|---|---|---|---|---|---|
+| SOC2-EV-028 | `docs/adoption/DOWNSTREAM_DOCTRINE_ADOPTION_REGISTER.md` | Adoption evidence register | Information and communication, change management, boundary evidence | Doctrine Control Plane | Active |
+| SOC2-EV-029 | `docs/phases/PHASE_8_DOWNSTREAM_DOCTRINE_ADOPTION_EVIDENCE_CLOSURE.md` | Phase evidence | Change management and downstream adoption traceability | Doctrine Control Plane | Active |

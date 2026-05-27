@@ -139,3 +139,11 @@ Aegis Runtime boundary	docs/phases/PHASE_7_AEGIS_RUNTIME_RISKDNA_DOCTRINE_DELTA.
 RiskDNA boundary	docs/phases/PHASE_7_AEGIS_RUNTIME_RISKDNA_DOCTRINE_DELTA.md, docs/portfolio/MODULE_AUTHORITY_MATRIX.md, contracts/portfolio/authority_matrix.json	RiskDNA risk-scoring/readiness authority boundary	Risk scoring only; no authorization, OPA replacement, or enforcement.
 Packaging reality	docs/portfolio/PRODUCT_PACKAGING_BOUNDARIES.md	No independent Helm/package/production routing claim	Packaging remains non-authority.
 SENTINEL preservation	docs/portfolio/SENTINEL_CONTROL_POINT_RULE.md	Aegis/RiskDNA context cannot bypass SENTINEL	SENTINEL remains canonical for runtime-impacting decisions.
+
+## Phase 8 downstream adoption traceability
+
+| Control theme | Doctrine artifact | Evidence produced | Boundary |
+|---|---|---|---|
+| Downstream doctrine adoption | `docs/adoption/DOWNSTREAM_DOCTRINE_ADOPTION_REGISTER.md` | Completed adoption evidence and pending adoption backlog | Adoption evidence only; no runtime authority granted. |
+| Change management | `docs/phases/PHASE_8_DOWNSTREAM_DOCTRINE_ADOPTION_EVIDENCE_CLOSURE.md` | Phase-gated downstream adoption closure | Does not prove production operating effectiveness. |
+| Information and communication | Downstream `AGENTS.md` adoption pointers | Canonical doctrine consumption path | Downstream repos must not create local substitute doctrine. |

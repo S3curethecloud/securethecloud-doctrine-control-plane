@@ -3,7 +3,7 @@
 **Project:** SecureTheCloud Doctrine Control Plane
 **Repository:** `S3curethecloud/securethecloud-doctrine-control-plane`
 **Current Status:** Phase 6 / Optional Read-Only Doctrine Portal Evaluation Complete
-**Last Updated:** 2026-05-23
+**Last Updated:** 2026-05-26
 
 ## Phase 0 — Repository Baseline
 
@@ -240,3 +240,30 @@ SENTINEL non-bypass preserved: true
 Machine-readable contract parity preserved: true
 Doctrine contract validation passed locally.
 
+## Phase 8 — Downstream Doctrine Adoption Evidence Closure
+
+**Goal:** Record downstream adoption evidence for canonical Phase 7 doctrine and preserve a canonical backlog for pending downstream adoption targets.
+
+### Completed adoption evidence
+
+- [x] Phase 8A — Aegis/RiskDNA runtime adoption: `df83c3e`
+- [x] Phase 8B — SENTINEL adoption: `3054784`
+- [x] Phase 8C — ASZ adoption: `b0f6459`
+- [x] Phase 8D — Blackbox adoption: `0306170`
+
+### Pending adoption backlog
+
+- [ ] Phase 8E — Risk Exchange adoption: `S3curethecloud/securethecloud-agent-risk-exchange`
+- [ ] Phase 8F — SAF-P adoption: `S3curethecloud/securethecloud-safp`
+- [ ] Phase 8G — SageMaker Risk Intelligence adoption: `S3curethecloud/securethecloud-sagemaker-risk-intelligence`
+- [ ] Phase 8H — Secret Vault adoption: `S3curethecloud/securethecloud-secret-vault`
+
+### Evidence
+
+- Adoption register created: `docs/adoption/DOWNSTREAM_DOCTRINE_ADOPTION_REGISTER.md`
+- Phase record created: `docs/phases/PHASE_8_DOWNSTREAM_DOCTRINE_ADOPTION_EVIDENCE_CLOSURE.md`
+- Runtime authority granted: false
+- Helm packaging granted: false
+- Production enforcement granted: false
+- SOC 2 certification claimed: false
+- SENTINEL non-bypass preserved: true
