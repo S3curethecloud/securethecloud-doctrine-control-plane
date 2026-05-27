@@ -163,3 +163,15 @@ Phase 8 downstream adoption is complete across the known downstream repositories
 - Phase 8I - Intelligence Core: ea922ea
 
 This final closure is evidence/register-only. It does not grant runtime authority, token issuance, session creation, authorization behavior, OPA replacement, SENTINEL bypass, Vault reference resolution, secret mutation, SageMaker runtime execution, ML authority, Helm packaging, production routing, production enforcement, SOC 2 certification, or production operating effectiveness.
+
+## Phase 9B claims-safe wording change record
+
+Change type: Documentation and claims-boundary update.
+
+Scope:
+
+- Add claims-safe wording standard.
+- Add claims-safe boundary language to high-impact portfolio and SOC 2 documents.
+- Preserve all runtime, authorization, token/session, Vault, SageMaker, ML, enforcement, and SOC 2 non-certification boundaries.
+
+No runtime, frontend, backend, API, dataset, export, credential, enforcement, or production behavior is changed.

@@ -110,3 +110,9 @@ They are not proven independent deployment units.
 No Helm toggle, suite module, package decomposition, disable/enable behavior, or production routing claim is authorized by Phase 7.
 
 Customer-facing packaging may reference Aegis Runtime and RiskDNA only as bounded readiness, evidence, risk, signal, or explanation context within approved suite boundaries.
+
+## Claims-safe packaging boundary
+
+Suite, module, and portfolio packaging language in this document is commercial and organizational language only.
+
+Packaging does not create authority. Packaging does not merge module authority. Packaging does not grant runtime authority, authorization authority, enforcement authority, token/session authority, Vault authority, SageMaker runtime authority, ML authority, production routing, production enforcement, SOC 2 certification, or production operating effectiveness.

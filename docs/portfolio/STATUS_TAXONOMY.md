@@ -110,3 +110,9 @@ This taxonomy is the human-readable source for Phase 2.
 Phase 3 will create the machine-readable contract at:
 
 `contracts/portfolio/status_taxonomy.json`
+
+## Claims-safe status boundary
+
+Status labels such as production-ready, production-stage, readiness, customer-offerable, and audit-ready must be interpreted as scoped readiness labels.
+
+A readiness label does not grant production enforcement, runtime authority, token/session authority, authorization authority, credential authority, SOC 2 certification, or production operating effectiveness.

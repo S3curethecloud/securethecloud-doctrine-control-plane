@@ -79,3 +79,9 @@ Type 2 operating effectiveness evidence would require time-bound operational evi
 ## Non-scope confirmation
 
 Phase 4 does not add runtime adapter code, Helm templates, UI or website assets, module-specific enforcement logic, live backend integration, token issuance, runtime session creation, or production enforcement.
+
+## Claims-safe SOC 2 wording boundary
+
+SOC 2 wording in this document means SOC 2-aligned evidence, readiness, traceability, and audit support unless explicitly supported by independent external audit evidence.
+
+This document does not claim SOC 2 certification, completed independent SOC 2 audit, production operating effectiveness, production enforcement, or live control operation unless a future authorized evidence phase records that proof.
