@@ -141,3 +141,9 @@ Phase 8 records downstream adoption evidence and pending adoption backlog for ca
 This is an evidence/register update only.
 
 It does not modify runtime behavior, Helm templates, deployment routing, token/session authority, authorization behavior, Vault reference authority, SageMaker runtime authority, provider mutation, Kubernetes mutation, or production enforcement.
+
+## Phase 8I backlog correction record
+
+Phase 8I records `S3curethecloud/stc-intelligence-core` as a pending downstream adoption target.
+
+This correction is evidence/backlog-only. It does not grant Aegis/RiskDNA awareness, intelligence authority, runtime authority, Helm packaging, deployment routing, production enforcement, or SOC 2 certification claims.

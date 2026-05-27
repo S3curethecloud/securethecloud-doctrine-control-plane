@@ -75,6 +75,6 @@ Current closure position
 
 Phase 8A through Phase 8D are adoption-complete.
 
-Phase 8E through Phase 8H remain pending downstream adoption targets.
+Phase 8E through Phase 8I remain pending downstream adoption targets.
 
 This register closes the first downstream adoption wave and records the remaining adoption backlog.

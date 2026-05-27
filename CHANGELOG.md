@@ -1,3 +1,8 @@
+## 2026-05-26 — Phase 8I Intelligence Core Pending Adoption Target
+
+- Added `S3curethecloud/stc-intelligence-core` as Phase 8I pending downstream doctrine adoption target.
+- Preserved no-runtime-authority, no-intelligence-authority, no-Aegis/RiskDNA-awareness-by-default, no-production-enforcement, and SOC 2 non-certification boundaries.
+
 ## 2026-05-26 — Phase 8 Downstream Doctrine Adoption Evidence Closure
 
 - Recorded completed downstream doctrine adoptions for Aegis/RiskDNA runtime, SENTINEL, ASZ, and Blackbox.

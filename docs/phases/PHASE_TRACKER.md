@@ -257,6 +257,7 @@ Doctrine contract validation passed locally.
 - [ ] Phase 8F — SAF-P adoption: `S3curethecloud/securethecloud-safp`
 - [ ] Phase 8G — SageMaker Risk Intelligence adoption: `S3curethecloud/securethecloud-sagemaker-risk-intelligence`
 - [ ] Phase 8H — Secret Vault adoption: `S3curethecloud/securethecloud-secret-vault`
+- [ ] Phase 8I — Intelligence Core adoption: `S3curethecloud/stc-intelligence-core`
 
 ### Evidence
 

@@ -54,6 +54,11 @@ Phase 8H — Secret Vault Adoption
 Repository: S3curethecloud/securethecloud-secret-vault
 Default branch: main
 Status: Pending
+
+Phase 8I — Intelligence Core Adoption
+Repository: S3curethecloud/stc-intelligence-core
+Default branch: main
+Status: Pending
 Closure checklist
 [x] Runtime adoption recorded
 [x] SENTINEL adoption recorded
@@ -63,6 +68,7 @@ Closure checklist
 [x] SAF-P pending target recorded
 [x] SageMaker Risk Intelligence pending target recorded
 [x] Secret Vault pending target recorded
+[x] Intelligence Core pending target recorded
 [x] Downstream adoption register created
 [x] SOC 2 evidence register updated
 [x] Phase tracker updated
@@ -76,6 +82,7 @@ This phase does not claim Phase 8E Risk Exchange adoption is complete.
 This phase does not claim Phase 8F SAF-P adoption is complete.
 This phase does not claim Phase 8G SageMaker Risk Intelligence adoption is complete.
 This phase does not claim Phase 8H Secret Vault adoption is complete.
+This phase does not claim Phase 8I Intelligence Core adoption is complete.
 This phase does not grant runtime authority.
 This phase does not grant token issuance.
 This phase does not grant authorization behavior.
@@ -92,4 +99,4 @@ Exit position
 
 Phase 8 first-wave downstream adoption is evidence-closed for runtime, SENTINEL, ASZ, and Blackbox.
 
-Phase 8E through Phase 8H remain pending downstream adoption work.
+Phase 8E through Phase 8I remain pending downstream adoption work.

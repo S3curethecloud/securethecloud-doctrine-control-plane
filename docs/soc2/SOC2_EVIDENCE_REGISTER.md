@@ -92,3 +92,9 @@ SOC2-EV-027	contracts/portfolio/module_registry.json and contracts/portfolio/aut
 |---|---|---|---|---|---|
 | SOC2-EV-028 | `docs/adoption/DOWNSTREAM_DOCTRINE_ADOPTION_REGISTER.md` | Adoption evidence register | Information and communication, change management, boundary evidence | Doctrine Control Plane | Active |
 | SOC2-EV-029 | `docs/phases/PHASE_8_DOWNSTREAM_DOCTRINE_ADOPTION_EVIDENCE_CLOSURE.md` | Phase evidence | Change management and downstream adoption traceability | Doctrine Control Plane | Active |
+
+## Phase 8I pending adoption evidence extension
+
+| Evidence ID | Artifact | Evidence type | SOC 2 alignment | Owner | Status |
+|---|---|---|---|---|---|
+| SOC2-EV-030 | `docs/adoption/DOWNSTREAM_DOCTRINE_ADOPTION_REGISTER.md` Phase 8I row | Adoption backlog evidence | Information and communication, change management, boundary evidence | Doctrine Control Plane | Pending downstream adoption |

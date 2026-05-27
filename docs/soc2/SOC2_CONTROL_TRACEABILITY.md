@@ -147,3 +147,9 @@ SENTINEL preservation	docs/portfolio/SENTINEL_CONTROL_POINT_RULE.md	Aegis/RiskDN
 | Downstream doctrine adoption | `docs/adoption/DOWNSTREAM_DOCTRINE_ADOPTION_REGISTER.md` | Completed adoption evidence and pending adoption backlog | Adoption evidence only; no runtime authority granted. |
 | Change management | `docs/phases/PHASE_8_DOWNSTREAM_DOCTRINE_ADOPTION_EVIDENCE_CLOSURE.md` | Phase-gated downstream adoption closure | Does not prove production operating effectiveness. |
 | Information and communication | Downstream `AGENTS.md` adoption pointers | Canonical doctrine consumption path | Downstream repos must not create local substitute doctrine. |
+
+## Phase 8I Intelligence Core pending adoption traceability
+
+| Control theme | Doctrine artifact | Evidence produced | Boundary |
+|---|---|---|---|
+| Intelligence Core downstream adoption backlog | `docs/adoption/DOWNSTREAM_DOCTRINE_ADOPTION_REGISTER.md` | Pending Intelligence Core adoption target | Pending only; no Aegis/RiskDNA awareness, runtime authority, or intelligence claim is granted until downstream adoption is committed. |
