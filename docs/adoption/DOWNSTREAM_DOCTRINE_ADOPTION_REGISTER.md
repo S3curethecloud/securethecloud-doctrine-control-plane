@@ -14,7 +14,7 @@ It does not implement runtime behavior, Helm packaging, production routing, toke
 
 ## Canonical upstream doctrine
 
-```text
+
 Repository: S3curethecloud/securethecloud-doctrine-control-plane
 Phase: Phase 7 — Aegis Runtime / RiskDNA Doctrine Delta
 Canonical commit: 5fbfb08
@@ -28,10 +28,11 @@ Phase 8C	S3curethecloud/securethecloud-agent-sovereignty-zones	main	b0f6459	Comp
 Phase 8D	S3curethecloud/securethecloud-agent-blackbox	main	0306170	Complete	Blackbox consumes canonical Phase 7 doctrine; local Phase 128 preserved.
 Pending downstream adoptions
 Planned adoption phase	Repository	Default branch	Status	Required boundary
-Phase 8E	S3curethecloud/securethecloud-agent-risk-exchange	main	Pending	Risk Exchange must remain no-runtime-authority unless canonical doctrine later grants scope.
-Phase 8F	S3curethecloud/securethecloud-safp	main	Pending	SAF-P must consume canonical doctrine before authority, packaging, or runtime claims.
-Phase 8G	S3curethecloud/securethecloud-sagemaker-risk-intelligence	main	Pending	SageMaker Risk Intelligence must not claim SageMaker runtime execution, ML authority, or production risk automation from doctrine adoption alone.
-Phase 8H	S3curethecloud/securethecloud-secret-vault	main	Pending	Secret Vault must not claim Vault reference resolution, secret mutation, credential authority, or production secret handling from doctrine adoption alone.
+Phase 8E     S3curethecloud/securethecloud-agent-risk-exchange      main  ce40bf4 Complete Risk Exchange consumes canonical Phase 7 doctrine; no runtime authority granted.
+Phase 8F     S3curethecloud/securethecloud-safp      main  64738e6 Complete SAF-P consumes canonical Phase 7 doctrine; no runtime or protocol authority granted.
+Phase 8G     S3curethecloud/securethecloud-sagemaker-risk-intelligence      main  9ea6cbe Complete SageMaker Risk Intelligence consumes canonical Phase 7 doctrine; no SageMaker runtime or ML authority granted.
+Phase 8H     S3curethecloud/securethecloud-secret-vault      main  3259def Complete Secret Vault consumes canonical Phase 7 doctrine; no Vault, secret, credential, or production secret authority granted.
+Phase 8I     S3curethecloud/stc-intelligence-core      main  ea922ea Complete Intelligence Core consumes canonical Phase 7 doctrine; Aegis and RiskDNA awareness is bounded to signal and risk context.
 Adopted canonical truth
 
 Completed and pending downstream repositories must preserve:
@@ -75,6 +76,23 @@ Current closure position
 
 Phase 8A through Phase 8D are adoption-complete.
 
-Phase 8E through Phase 8I remain pending downstream adoption targets.
+Phase 8A through Phase 8I are downstream adoption-complete.
 
 This register closes the first downstream adoption wave and records the remaining adoption backlog.
+
+## Final Phase 8 adoption closure
+
+Phase 8 downstream adoption is complete across the known downstream repositories:
+
+- Phase 8A - Aegis/RiskDNA runtime: df83c3e
+- Phase 8B - SENTINEL: 3054784
+- Phase 8C - ASZ: b0f6459
+- Phase 8D - Blackbox: 0306170
+- Phase 8E - Risk Exchange: ce40bf4
+- Phase 8F - SAF-P: 64738e6
+- Phase 8G - SageMaker Risk Intelligence: 9ea6cbe
+- Phase 8H - Secret Vault: 3259def
+- Phase 8I - Intelligence Core: ea922ea
+
+This final closure does not grant runtime authority, token issuance, session creation, authorization behavior, OPA replacement, SENTINEL bypass, Vault reference resolution, secret mutation, SageMaker runtime execution, ML authority, Helm packaging, production routing, production enforcement, SOC 2 certification, or production operating effectiveness.
+

@@ -14,7 +14,7 @@ It does not update module authority, suite membership, product packaging authori
 
 ## Completed downstream adoption evidence
 
-```text
+
 Phase 8A — Aegis/RiskDNA Runtime Adoption
 Repository: S3curethecloud/ztr-runtime-api-server.py-requirements.txt-fly.toml
 Commit: df83c3e
@@ -100,3 +100,19 @@ Exit position
 Phase 8 first-wave downstream adoption is evidence-closed for runtime, SENTINEL, ASZ, and Blackbox.
 
 Phase 8E through Phase 8I remain pending downstream adoption work.
+
+## Final Phase 8 adoption closure
+
+Phase 8 downstream adoption is complete across the known downstream repositories:
+
+- Phase 8A - Aegis/RiskDNA runtime: df83c3e
+- Phase 8B - SENTINEL: 3054784
+- Phase 8C - ASZ: b0f6459
+- Phase 8D - Blackbox: 0306170
+- Phase 8E - Risk Exchange: ce40bf4
+- Phase 8F - SAF-P: 64738e6
+- Phase 8G - SageMaker Risk Intelligence: 9ea6cbe
+- Phase 8H - Secret Vault: 3259def
+- Phase 8I - Intelligence Core: ea922ea
+
+This final closure is evidence/register-only. It does not grant runtime authority, token issuance, session creation, authorization behavior, OPA replacement, SENTINEL bypass, Vault reference resolution, secret mutation, SageMaker runtime execution, ML authority, Helm packaging, production routing, production enforcement, SOC 2 certification, or production operating effectiveness.
