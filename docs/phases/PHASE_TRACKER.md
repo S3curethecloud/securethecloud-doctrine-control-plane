@@ -284,3 +284,25 @@ Phase 8 downstream adoption is complete across the known downstream repositories
 - Phase 8I - Intelligence Core: ea922ea
 
 This final closure is evidence/register-only. It does not grant runtime authority, token issuance, session creation, authorization behavior, OPA replacement, SENTINEL bypass, Vault reference resolution, secret mutation, SageMaker runtime execution, ML authority, Helm packaging, production routing, production enforcement, SOC 2 certification, or production operating effectiveness.
+
+## Phase 9 - Product Portfolio Readiness / Customer-Facing Claims Review Planning Gate
+
+Status: Phase 9 / Planning Gate In Progress
+
+Goal: Open a planning gate to inventory customer-facing claims and compare them against canonical doctrine boundaries after Phase 8 downstream adoption closure.
+
+Evidence:
+
+- docs/phases/PHASE_9_PRODUCT_PORTFOLIO_READINESS_CUSTOMER_FACING_CLAIMS_REVIEW_PLANNING_GATE.md
+- docs/claims/evidence/PHASE_9_FIRST_READ_EVIDENCE.md
+- docs/claims/evidence/PHASE_9_CUSTOMER_FACING_CLAIMS_SURFACE_INVENTORY.md
+
+Boundary:
+
+- Runtime authority granted: false
+- Token/session authority granted: false
+- Vault authority granted: false
+- SageMaker runtime or ML authority granted: false
+- Helm packaging granted: false
+- Production enforcement granted: false
+- SOC 2 certification claimed: false
