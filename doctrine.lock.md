@@ -136,6 +136,27 @@ A portal must not edit doctrine, mutate contracts, alter schemas, create authori
 Git remains the canonical source of truth.
 
 
+## Phase 7 Aegis Runtime / RiskDNA doctrine delta rule
+
+Aegis Runtime is a bounded runtime signal, evidence, and rendering participant.
+
+RiskDNA is a logical runtime risk-context and scoring participant.
+
+Aegis informs.
+
+RiskDNA informs.
+
+OPA decides where policy evaluation is required.
+
+SENTINEL remains canonical for runtime-impacting control decisions.
+
+Runtime owns token/session side effects.
+
+Aegis Runtime and RiskDNA are planning-ready logical boundaries only. They are not proven independent Helm packages, production routing units, or independently deployable customer package units.
+
+No runtime authority, token issuance, authorization behavior, runtime session creation, provider mutation, Kubernetes mutation, Helm execution, production traffic cutover, or production enforcement is granted by this phase.
+
+
 ## Unfrozen pending doctrine
 
 No pending doctrine phases remain in the initial doctrine-control-plane baseline.
