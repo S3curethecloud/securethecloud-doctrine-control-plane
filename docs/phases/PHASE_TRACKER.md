@@ -306,3 +306,25 @@ Boundary:
 - Helm packaging granted: false
 - Production enforcement granted: false
 - SOC 2 certification claimed: false
+
+## Phase 9A - Claims Risk Classification / Customer-Facing Language Review Gate
+
+Status: Phase 9A / Evidence Review In Progress
+
+Goal: Classify customer-facing claim surfaces identified in the Phase 9 planning inventory before any claims-safe wording patch is proposed.
+
+Evidence:
+
+- docs/phases/PHASE_9A_CLAIMS_RISK_CLASSIFICATION_CUSTOMER_FACING_LANGUAGE_REVIEW_GATE.md
+- docs/claims/evidence/PHASE_9A_CLAIMS_RISK_CLASSIFICATION_REVIEW.md
+
+Boundary:
+
+- Customer-facing language changed: false
+- Product packaging changed: false
+- Runtime authority granted: false
+- Token/session authority granted: false
+- Vault authority granted: false
+- SageMaker runtime or ML authority granted: false
+- Production enforcement granted: false
+- SOC 2 certification claimed: false
