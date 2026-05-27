@@ -187,3 +187,11 @@ Phase 3 will create machine-readable contracts for:
 - `contracts/portfolio/suite_catalog.json`
 
 Until Phase 3 is complete, these JSON contract paths are reserved placeholders, not active integration dependencies.
+
+## Phase 7 Aegis Runtime / RiskDNA authority additions
+
+Module ID	Module name	Category	Lifecycle status	Authority type	Callable interfaces	Forbidden actions	Membership
+aegis_runtime_signal_context	Aegis Runtime Signal Context	runtime_assurance	evidence_recorded	explanation_read_only	read_evidence, present_customer_safe, explain_posture, control_point_reference	token issuance; authorization; runtime session creation; provider mutation; Kubernetes mutation; Helm execution; OPA replacement; SENTINEL bypass; production enforcement; independent package claim	SecureTheCloud Runtime Assurance Suite / SecureTheCloud Compliance Evidence Suite / SecureTheCloud Agent Blackbox Suite / SecureTheCloud Risk Intelligence Suite
+riskdna_runtime_risk_context	RiskDNA Runtime Risk Context	risk_intelligence	evidence_recorded	risk_scoring_read_only	read_evidence, score_risk, present_customer_safe, explain_posture	authorization; policy outcome creation; runtime mutation; token issuance; runtime session creation; OPA replacement; SENTINEL bypass; production enforcement; independent package claim	SecureTheCloud Risk Intelligence Suite / SecureTheCloud Runtime Assurance Suite
+
+Phase 7 preserves the canonical rule that suite membership does not create authority, packaging does not create authority, composition does not create authority, evidence does not create enforcement authority, and explanation does not create authorization authority.

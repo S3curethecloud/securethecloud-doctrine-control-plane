@@ -125,3 +125,11 @@ This repository does not define organization-wide evidence retention periods. Re
 The Doctrine Control Plane has SOC 2-aligned change-management design evidence for doctrine governance.
 
 It does not yet demonstrate time-bound operating effectiveness for a SOC 2 Type 2 report.
+
+## Phase 7 change-management record
+
+Phase 7 is a doctrine baseline and contract change.
+
+It updates human-readable doctrine, machine-readable contracts, SOC 2 traceability, and phase evidence while preserving repository non-scope.
+
+No runtime adapter code, Helm templates, UI assets, live backend integrations, token issuance, runtime session creation, authorization behavior, or production enforcement are added.

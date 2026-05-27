@@ -87,3 +87,17 @@ The frozen SENTINEL baseline is:
 3. Evidence-only and explanation-only modules must not claim SENTINEL authority.
 4. Live enforcement may not be claimed without explicit doctrine and phase approval.
 5. Other agents must not create local substitute control-point doctrine.
+
+## Phase 7 Aegis Runtime / RiskDNA context rule
+
+Aegis informs.
+
+RiskDNA informs.
+
+OPA decides where policy evaluation is required.
+
+SENTINEL remains canonical for runtime-impacting control decisions.
+
+Runtime owns token/session side effects.
+
+Aegis Runtime and RiskDNA context may not be used to bypass SENTINEL, replace OPA, issue tokens, create sessions, grant authorization, mutate runtime systems, or claim live enforcement.

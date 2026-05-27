@@ -1,3 +1,9 @@
+## 2026-05-26 — Phase 7 Aegis Runtime / RiskDNA Doctrine Delta
+
+Added canonical doctrine delta for Aegis Runtime signal context and RiskDNA runtime risk context.
+Added module registry and authority matrix records with no runtime authority.
+Preserved SENTINEL non-bypass, packaging non-authority, runtime non-scope, and SOC 2 non-certification boundaries.
+
 # Changelog
 
 All notable doctrine control-plane changes will be recorded here.

@@ -112,3 +112,15 @@ The four customer-offerable suites frozen by this phase are:
 4. SecureTheCloud Risk Intelligence Suite
 
 Any addition, removal, rename, or role change requires a doctrine update.
+
+## Phase 7 Aegis Runtime / RiskDNA doctrine delta
+
+Aegis Runtime is recognized as a bounded runtime signal, evidence, and rendering participant.
+
+RiskDNA is recognized as a logical runtime risk-context and scoring participant.
+
+These records support Runtime Assurance, Risk Intelligence, Compliance Evidence, and Agent Blackbox evidence views only within their approved authority boundaries.
+
+They do not create a fifth customer-offerable suite.
+
+They do not grant token issuance, authorization, session lifecycle, runtime mutation, OPA replacement, SENTINEL bypass, Helm packaging, production routing, or production enforcement authority.

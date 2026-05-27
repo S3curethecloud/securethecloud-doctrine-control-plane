@@ -79,3 +79,9 @@ Update this register when:
 The Doctrine Control Plane has design-level SOC 2-aligned evidence for governance, authority separation, contract consistency, and change traceability.
 
 It does not yet provide operating-effectiveness evidence for a SOC 2 Type 2 report.
+
+## Phase 7 evidence extension
+
+Evidence ID	Artifact	Evidence type	SOC 2 alignment	Owner	Status
+SOC2-EV-026	docs/phases/PHASE_7_AEGIS_RUNTIME_RISKDNA_DOCTRINE_DELTA.md	Boundary evidence	Aegis Runtime / RiskDNA readiness boundary	Doctrine Control Plane	Active
+SOC2-EV-027	contracts/portfolio/module_registry.json and contracts/portfolio/authority_matrix.json Phase 7 records	Contract evidence	Machine-readable Aegis/RiskDNA authority parity	Doctrine Control Plane	Active

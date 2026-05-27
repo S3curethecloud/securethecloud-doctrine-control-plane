@@ -105,3 +105,11 @@ The Composition Layer baseline is frozen as:
 3. composition may not bypass SENTINEL;
 4. composition must preserve module-level authority and forbidden actions;
 5. composition must reference shared contracts rather than invent local doctrine.
+
+## Phase 7 Aegis Runtime / RiskDNA composition rule
+
+Composition may reference Aegis Runtime and RiskDNA as planning-ready logical boundaries.
+
+Composition must not convert Aegis Runtime or RiskDNA into independent packages, Helm toggles, production routing units, or enforcement modules until future doctrine and implementation evidence proves clean deploy boundaries.
+
+Composition must preserve Runtime ownership of token/session side effects, OPA policy decision authority, and SENTINEL non-bypass.

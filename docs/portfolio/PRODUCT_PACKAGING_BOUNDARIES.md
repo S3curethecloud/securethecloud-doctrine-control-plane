@@ -100,3 +100,13 @@ The frozen packaging baseline is:
 4. SENTINEL doctrine is canonical, not optional marketing language;
 5. packaging must not expand authority;
 6. SOC 2-aligned documentation must not be represented as certification.
+
+## Phase 7 Aegis Runtime / RiskDNA packaging reality
+
+Aegis Runtime and RiskDNA have documented logical boundaries and planning-ready contracts.
+
+They are not proven independent deployment units.
+
+No Helm toggle, suite module, package decomposition, disable/enable behavior, or production routing claim is authorized by Phase 7.
+
+Customer-facing packaging may reference Aegis Runtime and RiskDNA only as bounded readiness, evidence, risk, signal, or explanation context within approved suite boundaries.

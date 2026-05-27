@@ -1,1 +1,356 @@
-{"contract_name":"securethecloud_module_registry","contract_version":"0.3.0-machine-contract-baseline","doctrine_phase":"Phase 3 / Shared Machine-Readable Contracts","last_updated":"2026-05-23","sharing_status":"active_machine_readable_contract","default_unregistered_module_rule":"Any module not listed in this registry is an unregistered_candidate with no_runtime_authority.","modules":[{"module_id":"doctrine_control_plane","module_name":"Doctrine Control Plane","category":"doctrine_control","lifecycle_status":"evidence_recorded","membership":["internal_doctrine_only"],"customer_visible":false,"description":"Repository-level doctrine source of truth."},{"module_id":"portfolio_doctrine","module_name":"Enterprise Product Portfolio Doctrine","category":"doctrine_control","lifecycle_status":"evidence_recorded","membership":["internal_doctrine_only"],"customer_visible":false,"description":"Human-readable product portfolio baseline."},{"module_id":"shared_trust_fabric","module_name":"Shared Trust Fabric","category":"shared_trust_fabric","lifecycle_status":"evidence_recorded","membership":["shared_trust_fabric"],"customer_visible":false,"description":"Shared substrate for doctrine, contracts, schemas, status, and traceability."},{"module_id":"composition_layer","module_name":"Composition Layer","category":"composition_layer","lifecycle_status":"evidence_recorded","membership":["shared_trust_fabric","agent_blackbox","compliance_evidence","runtime_assurance","risk_intelligence"],"customer_visible":true,"description":"Approved packaging, presentation, and assembly layer that preserves authority boundaries."},{"module_id":"sentinel_control_point","module_name":"SENTINEL Control Point Doctrine","category":"control_point","lifecycle_status":"evidence_recorded","membership":["runtime_assurance","shared_trust_fabric"],"customer_visible":true,"description":"Canonical control-point doctrine for runtime-impacting control decisions."},{"module_id":"suite_catalog","module_name":"Suite Catalog","category":"shared_trust_fabric","lifecycle_status":"evidence_recorded","membership":["shared_trust_fabric"],"customer_visible":false,"description":"Canonical suite catalog."},{"module_id":"module_authority_matrix","module_name":"Module Authority Matrix","category":"shared_trust_fabric","lifecycle_status":"evidence_recorded","membership":["shared_trust_fabric"],"customer_visible":false,"description":"Canonical module authority mapping."},{"module_id":"status_taxonomy","module_name":"Status Taxonomy","category":"shared_trust_fabric","lifecycle_status":"evidence_recorded","membership":["shared_trust_fabric"],"customer_visible":false,"description":"Canonical status and category taxonomy."},{"module_id":"product_packaging_boundaries","module_name":"Product Packaging Boundaries","category":"doctrine_control","lifecycle_status":"evidence_recorded","membership":["internal_doctrine_only","agent_blackbox","compliance_evidence","runtime_assurance","risk_intelligence"],"customer_visible":false,"description":"Packaging boundaries that prevent role merging and authority expansion."},{"module_id":"agent_blackbox_suite_shell","module_name":"Agent Blackbox Suite Shell","category":"suite_shell","lifecycle_status":"doctrine_defined","membership":["agent_blackbox"],"customer_visible":true,"description":"Customer-facing shell for Agent Blackbox packaging."},{"module_id":"agent_decision_evidence","module_name":"Agent Decision Evidence","category":"agent_evidence","lifecycle_status":"doctrine_defined","membership":["agent_blackbox"],"customer_visible":true,"description":"Read-only evidence for agent decisions."},{"module_id":"agent_handoff_context","module_name":"Agent Handoff Context","category":"agent_evidence","lifecycle_status":"doctrine_defined","membership":["agent_blackbox"],"customer_visible":true,"description":"Read-only evidence for agent handoff context."},{"module_id":"agent_trust_intelligence_summary","module_name":"Agent Trust Intelligence Summary","category":"agent_evidence","lifecycle_status":"doctrine_defined","membership":["agent_blackbox","risk_intelligence"],"customer_visible":true,"description":"Read-only trust intelligence summaries from approved evidence."},{"module_id":"compliance_evidence_suite_shell","module_name":"Compliance Evidence Suite Shell","category":"suite_shell","lifecycle_status":"doctrine_defined","membership":["compliance_evidence"],"customer_visible":true,"description":"Customer/auditor-facing shell for Compliance Evidence packaging."},{"module_id":"soc2_alignment_evidence","module_name":"SOC 2 Alignment Evidence","category":"compliance_evidence","lifecycle_status":"doctrine_defined","membership":["compliance_evidence"],"customer_visible":true,"description":"SOC 2-aligned evidence mapping."},{"module_id":"soc2_control_traceability","module_name":"SOC 2 Control Traceability","category":"compliance_evidence","lifecycle_status":"doctrine_defined","membership":["compliance_evidence"],"customer_visible":true,"description":"Control traceability mapping for SOC 2-aligned evidence."},{"module_id":"audit_workspace","module_name":"Auditor Evidence Workspace","category":"evidence_surface","lifecycle_status":"doctrine_defined","membership":["compliance_evidence"],"customer_visible":true,"description":"Read-only auditor evidence workspace."},{"module_id":"soc2_export_manifest","module_name":"SOC 2 Export Manifest","category":"evidence_export","lifecycle_status":"doctrine_defined","membership":["compliance_evidence"],"customer_visible":true,"description":"Approved evidence export manifest packaging."},{"module_id":"pdf_report_package","module_name":"PDF Report Package","category":"evidence_export","lifecycle_status":"doctrine_defined","membership":["compliance_evidence","agent_blackbox"],"customer_visible":true,"description":"Approved PDF report package surface."},{"module_id":"signed_bundle_manifest","module_name":"Signed Bundle Manifest","category":"evidence_export","lifecycle_status":"doctrine_defined","membership":["compliance_evidence"],"customer_visible":true,"description":"Approved signed-bundle manifest doctrine; cryptographic signing requires separate approval."},{"module_id":"runtime_assurance_suite_shell","module_name":"Runtime Assurance Suite Shell","category":"suite_shell","lifecycle_status":"doctrine_defined","membership":["runtime_assurance"],"customer_visible":true,"description":"Customer-facing shell for runtime assurance posture."},{"module_id":"runtime_boundary_readiness","module_name":"Runtime Boundary Readiness","category":"runtime_assurance","lifecycle_status":"doctrine_defined","membership":["runtime_assurance"],"customer_visible":true,"description":"Read-only runtime boundary readiness explanations."},{"module_id":"sentinel_readiness_reference","module_name":"SENTINEL Readiness Reference","category":"runtime_assurance","lifecycle_status":"doctrine_defined","membership":["runtime_assurance"],"customer_visible":true,"description":"Read-only SENTINEL readiness reference."},{"module_id":"risk_intelligence_suite_shell","module_name":"Risk Intelligence Suite Shell","category":"suite_shell","lifecycle_status":"doctrine_defined","membership":["risk_intelligence"],"customer_visible":true,"description":"Customer-facing shell for risk intelligence."},{"module_id":"risk_posture_narrative","module_name":"Risk Posture Narrative","category":"risk_intelligence","lifecycle_status":"doctrine_defined","membership":["risk_intelligence"],"customer_visible":true,"description":"Read-only risk posture narrative."},{"module_id":"authority_overlap_detector","module_name":"Authority Overlap Detector","category":"risk_intelligence","lifecycle_status":"doctrine_defined","membership":["risk_intelligence","shared_trust_fabric"],"customer_visible":true,"description":"Read-only authority overlap analysis."},{"module_id":"agent_risk_exchange_candidate","module_name":"Agent Risk Exchange Candidate","category":"integration_candidate","lifecycle_status":"future_candidate","membership":["future_candidate"],"customer_visible":false,"description":"Future integration candidate with no active authority."},{"module_id":"frontend_doctrine_portal_candidate","module_name":"Read-Only Doctrine Portal Candidate","category":"integration_candidate","lifecycle_status":"future_candidate","membership":["future_candidate"],"customer_visible":false,"description":"Future read-only docs visualization candidate."}]}
+{
+  "contract_name": "securethecloud_module_registry",
+  "contract_version": "0.7.0-aegis-riskdna-doctrine-delta",
+  "doctrine_phase": "Phase 7 / Aegis Runtime RiskDNA Doctrine Delta",
+  "last_updated": "2026-05-26",
+  "sharing_status": "active_machine_readable_contract",
+  "default_unregistered_module_rule": "Any module not listed in this registry is an unregistered_candidate with no_runtime_authority.",
+  "modules": [
+    {
+      "module_id": "doctrine_control_plane",
+      "module_name": "Doctrine Control Plane",
+      "category": "doctrine_control",
+      "lifecycle_status": "evidence_recorded",
+      "membership": [
+        "internal_doctrine_only"
+      ],
+      "customer_visible": false,
+      "description": "Repository-level doctrine source of truth."
+    },
+    {
+      "module_id": "portfolio_doctrine",
+      "module_name": "Enterprise Product Portfolio Doctrine",
+      "category": "doctrine_control",
+      "lifecycle_status": "evidence_recorded",
+      "membership": [
+        "internal_doctrine_only"
+      ],
+      "customer_visible": false,
+      "description": "Human-readable product portfolio baseline."
+    },
+    {
+      "module_id": "shared_trust_fabric",
+      "module_name": "Shared Trust Fabric",
+      "category": "shared_trust_fabric",
+      "lifecycle_status": "evidence_recorded",
+      "membership": [
+        "shared_trust_fabric"
+      ],
+      "customer_visible": false,
+      "description": "Shared substrate for doctrine, contracts, schemas, status, and traceability."
+    },
+    {
+      "module_id": "composition_layer",
+      "module_name": "Composition Layer",
+      "category": "composition_layer",
+      "lifecycle_status": "evidence_recorded",
+      "membership": [
+        "shared_trust_fabric",
+        "agent_blackbox",
+        "compliance_evidence",
+        "runtime_assurance",
+        "risk_intelligence"
+      ],
+      "customer_visible": true,
+      "description": "Approved packaging, presentation, and assembly layer that preserves authority boundaries."
+    },
+    {
+      "module_id": "sentinel_control_point",
+      "module_name": "SENTINEL Control Point Doctrine",
+      "category": "control_point",
+      "lifecycle_status": "evidence_recorded",
+      "membership": [
+        "runtime_assurance",
+        "shared_trust_fabric"
+      ],
+      "customer_visible": true,
+      "description": "Canonical control-point doctrine for runtime-impacting control decisions."
+    },
+    {
+      "module_id": "suite_catalog",
+      "module_name": "Suite Catalog",
+      "category": "shared_trust_fabric",
+      "lifecycle_status": "evidence_recorded",
+      "membership": [
+        "shared_trust_fabric"
+      ],
+      "customer_visible": false,
+      "description": "Canonical suite catalog."
+    },
+    {
+      "module_id": "module_authority_matrix",
+      "module_name": "Module Authority Matrix",
+      "category": "shared_trust_fabric",
+      "lifecycle_status": "evidence_recorded",
+      "membership": [
+        "shared_trust_fabric"
+      ],
+      "customer_visible": false,
+      "description": "Canonical module authority mapping."
+    },
+    {
+      "module_id": "status_taxonomy",
+      "module_name": "Status Taxonomy",
+      "category": "shared_trust_fabric",
+      "lifecycle_status": "evidence_recorded",
+      "membership": [
+        "shared_trust_fabric"
+      ],
+      "customer_visible": false,
+      "description": "Canonical status and category taxonomy."
+    },
+    {
+      "module_id": "product_packaging_boundaries",
+      "module_name": "Product Packaging Boundaries",
+      "category": "doctrine_control",
+      "lifecycle_status": "evidence_recorded",
+      "membership": [
+        "internal_doctrine_only",
+        "agent_blackbox",
+        "compliance_evidence",
+        "runtime_assurance",
+        "risk_intelligence"
+      ],
+      "customer_visible": false,
+      "description": "Packaging boundaries that prevent role merging and authority expansion."
+    },
+    {
+      "module_id": "agent_blackbox_suite_shell",
+      "module_name": "Agent Blackbox Suite Shell",
+      "category": "suite_shell",
+      "lifecycle_status": "doctrine_defined",
+      "membership": [
+        "agent_blackbox"
+      ],
+      "customer_visible": true,
+      "description": "Customer-facing shell for Agent Blackbox packaging."
+    },
+    {
+      "module_id": "agent_decision_evidence",
+      "module_name": "Agent Decision Evidence",
+      "category": "agent_evidence",
+      "lifecycle_status": "doctrine_defined",
+      "membership": [
+        "agent_blackbox"
+      ],
+      "customer_visible": true,
+      "description": "Read-only evidence for agent decisions."
+    },
+    {
+      "module_id": "agent_handoff_context",
+      "module_name": "Agent Handoff Context",
+      "category": "agent_evidence",
+      "lifecycle_status": "doctrine_defined",
+      "membership": [
+        "agent_blackbox"
+      ],
+      "customer_visible": true,
+      "description": "Read-only evidence for agent handoff context."
+    },
+    {
+      "module_id": "agent_trust_intelligence_summary",
+      "module_name": "Agent Trust Intelligence Summary",
+      "category": "agent_evidence",
+      "lifecycle_status": "doctrine_defined",
+      "membership": [
+        "agent_blackbox",
+        "risk_intelligence"
+      ],
+      "customer_visible": true,
+      "description": "Read-only trust intelligence summaries from approved evidence."
+    },
+    {
+      "module_id": "compliance_evidence_suite_shell",
+      "module_name": "Compliance Evidence Suite Shell",
+      "category": "suite_shell",
+      "lifecycle_status": "doctrine_defined",
+      "membership": [
+        "compliance_evidence"
+      ],
+      "customer_visible": true,
+      "description": "Customer/auditor-facing shell for Compliance Evidence packaging."
+    },
+    {
+      "module_id": "soc2_alignment_evidence",
+      "module_name": "SOC 2 Alignment Evidence",
+      "category": "compliance_evidence",
+      "lifecycle_status": "doctrine_defined",
+      "membership": [
+        "compliance_evidence"
+      ],
+      "customer_visible": true,
+      "description": "SOC 2-aligned evidence mapping."
+    },
+    {
+      "module_id": "soc2_control_traceability",
+      "module_name": "SOC 2 Control Traceability",
+      "category": "compliance_evidence",
+      "lifecycle_status": "doctrine_defined",
+      "membership": [
+        "compliance_evidence"
+      ],
+      "customer_visible": true,
+      "description": "Control traceability mapping for SOC 2-aligned evidence."
+    },
+    {
+      "module_id": "audit_workspace",
+      "module_name": "Auditor Evidence Workspace",
+      "category": "evidence_surface",
+      "lifecycle_status": "doctrine_defined",
+      "membership": [
+        "compliance_evidence"
+      ],
+      "customer_visible": true,
+      "description": "Read-only auditor evidence workspace."
+    },
+    {
+      "module_id": "soc2_export_manifest",
+      "module_name": "SOC 2 Export Manifest",
+      "category": "evidence_export",
+      "lifecycle_status": "doctrine_defined",
+      "membership": [
+        "compliance_evidence"
+      ],
+      "customer_visible": true,
+      "description": "Approved evidence export manifest packaging."
+    },
+    {
+      "module_id": "pdf_report_package",
+      "module_name": "PDF Report Package",
+      "category": "evidence_export",
+      "lifecycle_status": "doctrine_defined",
+      "membership": [
+        "compliance_evidence",
+        "agent_blackbox"
+      ],
+      "customer_visible": true,
+      "description": "Approved PDF report package surface."
+    },
+    {
+      "module_id": "signed_bundle_manifest",
+      "module_name": "Signed Bundle Manifest",
+      "category": "evidence_export",
+      "lifecycle_status": "doctrine_defined",
+      "membership": [
+        "compliance_evidence"
+      ],
+      "customer_visible": true,
+      "description": "Approved signed-bundle manifest doctrine; cryptographic signing requires separate approval."
+    },
+    {
+      "module_id": "runtime_assurance_suite_shell",
+      "module_name": "Runtime Assurance Suite Shell",
+      "category": "suite_shell",
+      "lifecycle_status": "doctrine_defined",
+      "membership": [
+        "runtime_assurance"
+      ],
+      "customer_visible": true,
+      "description": "Customer-facing shell for runtime assurance posture."
+    },
+    {
+      "module_id": "runtime_boundary_readiness",
+      "module_name": "Runtime Boundary Readiness",
+      "category": "runtime_assurance",
+      "lifecycle_status": "doctrine_defined",
+      "membership": [
+        "runtime_assurance"
+      ],
+      "customer_visible": true,
+      "description": "Read-only runtime boundary readiness explanations."
+    },
+    {
+      "module_id": "sentinel_readiness_reference",
+      "module_name": "SENTINEL Readiness Reference",
+      "category": "runtime_assurance",
+      "lifecycle_status": "doctrine_defined",
+      "membership": [
+        "runtime_assurance"
+      ],
+      "customer_visible": true,
+      "description": "Read-only SENTINEL readiness reference."
+    },
+    {
+      "module_id": "risk_intelligence_suite_shell",
+      "module_name": "Risk Intelligence Suite Shell",
+      "category": "suite_shell",
+      "lifecycle_status": "doctrine_defined",
+      "membership": [
+        "risk_intelligence"
+      ],
+      "customer_visible": true,
+      "description": "Customer-facing shell for risk intelligence."
+    },
+    {
+      "module_id": "risk_posture_narrative",
+      "module_name": "Risk Posture Narrative",
+      "category": "risk_intelligence",
+      "lifecycle_status": "doctrine_defined",
+      "membership": [
+        "risk_intelligence"
+      ],
+      "customer_visible": true,
+      "description": "Read-only risk posture narrative."
+    },
+    {
+      "module_id": "authority_overlap_detector",
+      "module_name": "Authority Overlap Detector",
+      "category": "risk_intelligence",
+      "lifecycle_status": "doctrine_defined",
+      "membership": [
+        "risk_intelligence",
+        "shared_trust_fabric"
+      ],
+      "customer_visible": true,
+      "description": "Read-only authority overlap analysis."
+    },
+    {
+      "module_id": "agent_risk_exchange_candidate",
+      "module_name": "Agent Risk Exchange Candidate",
+      "category": "integration_candidate",
+      "lifecycle_status": "future_candidate",
+      "membership": [
+        "future_candidate"
+      ],
+      "customer_visible": false,
+      "description": "Future integration candidate with no active authority."
+    },
+    {
+      "module_id": "frontend_doctrine_portal_candidate",
+      "module_name": "Read-Only Doctrine Portal Candidate",
+      "category": "integration_candidate",
+      "lifecycle_status": "future_candidate",
+      "membership": [
+        "future_candidate"
+      ],
+      "customer_visible": false,
+      "description": "Future read-only docs visualization candidate."
+    },
+    {
+      "module_id": "aegis_runtime_signal_context",
+      "module_name": "Aegis Runtime Signal Context",
+      "category": "runtime_assurance",
+      "lifecycle_status": "evidence_recorded",
+      "membership": [
+        "runtime_assurance",
+        "compliance_evidence",
+        "agent_blackbox",
+        "risk_intelligence"
+      ],
+      "customer_visible": true,
+      "description": "Bounded runtime signal, evidence, and rendering participant. No token, session, authorization, enforcement, Helm, or production authority."
+    },
+    {
+      "module_id": "riskdna_runtime_risk_context",
+      "module_name": "RiskDNA Runtime Risk Context",
+      "category": "risk_intelligence",
+      "lifecycle_status": "evidence_recorded",
+      "membership": [
+        "risk_intelligence",
+        "runtime_assurance"
+      ],
+      "customer_visible": true,
+      "description": "Logical runtime risk-context and scoring participant. Informs risk context without authorization, OPA replacement, SENTINEL bypass, or production enforcement authority."
+    }
+  ]
+}

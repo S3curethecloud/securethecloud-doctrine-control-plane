@@ -131,3 +131,11 @@ It does not yet provide:
 - data retention enforcement evidence.
 
 These gaps are intentional unless future phases approve additional evidence scope.
+
+## Phase 7 Aegis Runtime / RiskDNA traceability extension
+
+Control theme	Doctrine artifact	Evidence produced	Boundary
+Aegis Runtime boundary	docs/phases/PHASE_7_AEGIS_RUNTIME_RISKDNA_DOCTRINE_DELTA.md, docs/portfolio/MODULE_AUTHORITY_MATRIX.md, contracts/portfolio/authority_matrix.json	Aegis Runtime signal/evidence/readiness authority boundary	Readiness evidence only; no runtime authority or SOC 2 certification.
+RiskDNA boundary	docs/phases/PHASE_7_AEGIS_RUNTIME_RISKDNA_DOCTRINE_DELTA.md, docs/portfolio/MODULE_AUTHORITY_MATRIX.md, contracts/portfolio/authority_matrix.json	RiskDNA risk-scoring/readiness authority boundary	Risk scoring only; no authorization, OPA replacement, or enforcement.
+Packaging reality	docs/portfolio/PRODUCT_PACKAGING_BOUNDARIES.md	No independent Helm/package/production routing claim	Packaging remains non-authority.
+SENTINEL preservation	docs/portfolio/SENTINEL_CONTROL_POINT_RULE.md	Aegis/RiskDNA context cannot bypass SENTINEL	SENTINEL remains canonical for runtime-impacting decisions.

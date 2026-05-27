@@ -102,3 +102,13 @@ Current allowed suite status values for Phase 1:
 The four customer-offerable suites are frozen for Phase 1.
 
 New suites, suite renames, suite removals, or suite role changes require a doctrine update and phase evidence.
+
+## Phase 7 Aegis Runtime / RiskDNA suite interpretation
+
+Aegis Runtime signal context may be surfaced through Runtime Assurance, Compliance Evidence, Agent Blackbox, and Risk Intelligence views only as bounded evidence, explanation, signal, or readiness context.
+
+RiskDNA runtime risk context may be surfaced through Risk Intelligence and Runtime Assurance views only as risk scoring, blast-radius, topology-risk, recent-window-risk, or customer-safe risk narrative context.
+
+No new customer-offerable suite is created.
+
+No suite receives additional runtime authority from these records.

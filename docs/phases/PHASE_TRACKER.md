@@ -208,3 +208,35 @@
 - Git repository remains canonical source of truth.
 - Agents must consume repository doctrine directly and must not wait for a portal.
 - Phase 6 status: complete
+
+## Phase 7 — Aegis Runtime / RiskDNA Doctrine Delta
+
+Goal: Apply the runtime-side Aegis Runtime and RiskDNA doctrine readiness package to canonical doctrine without granting runtime authority, Helm packaging, production routing, SOC 2 certification, or enforcement claims.
+
+Checklist
+ Read mandatory doctrine-control-plane first-read files
+ Read human-readable portfolio doctrine
+ Read active machine-readable contracts
+ Create docs/phases/PHASE_7_AEGIS_RUNTIME_RISKDNA_DOCTRINE_DELTA.md
+ Update doctrine.lock.md
+ Update human-readable portfolio doctrine with Aegis/RiskDNA boundary rules
+ Update contracts/portfolio/module_registry.json
+ Update contracts/portfolio/authority_matrix.json
+ Update SOC 2 traceability and evidence register
+ Preserve SENTINEL non-bypass
+ Preserve product packaging non-authority
+ Preserve runtime non-scope
+ Run doctrine contract validation
+ Record Phase 7 evidence
+Evidence
+Runtime-side final evidence commit: 582d9e3
+Aegis Runtime doctrine module added: aegis_runtime_signal_context
+RiskDNA doctrine module added: riskdna_runtime_risk_context
+Runtime authority granted: false
+Helm packaging granted: false
+Production enforcement granted: false
+SOC 2 certification claimed: false
+SENTINEL non-bypass preserved: true
+Machine-readable contract parity preserved: true
+Doctrine contract validation passed locally.
+
