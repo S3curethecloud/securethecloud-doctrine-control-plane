@@ -112,3 +112,11 @@ RiskDNA runtime risk context may be surfaced through Risk Intelligence and Runti
 No new customer-offerable suite is created.
 
 No suite receives additional runtime authority from these records.
+
+## Claims-safe wording boundary
+
+Customer-facing wording in this document must be interpreted through the Phase 9B Claims-Safe Wording Standard.
+
+Production-ready, customer-offerable, suite, readiness, evidence, trust, intelligence, audit, and portfolio language does not grant runtime authority, token/session authority, authorization authority, module authority, enforcement authority, Vault authority, SageMaker runtime authority, ML authority, production operating effectiveness, SOC 2 certification, or production enforcement.
+
+Aegis informs. RiskDNA informs. OPA decides where policy evaluation is required. SENTINEL remains canonical for runtime-impacting control decisions. Runtime owns token/session side effects. Composition does not create authority. Packaging does not create authority. Evidence does not create enforcement authority. Explanation does not create authorization authority.

@@ -153,3 +153,16 @@ SENTINEL preservation	docs/portfolio/SENTINEL_CONTROL_POINT_RULE.md	Aegis/RiskDN
 | Control theme | Doctrine artifact | Evidence produced | Boundary |
 |---|---|---|---|
 | Intelligence Core downstream adoption backlog | `docs/adoption/DOWNSTREAM_DOCTRINE_ADOPTION_REGISTER.md` | Pending Intelligence Core adoption target | Pending only; no Aegis/RiskDNA awareness, runtime authority, or intelligence claim is granted until downstream adoption is committed. |
+
+## Phase 9B claims-safe wording traceability
+
+Phase 9B adds a claims-safe wording standard and boundary language to high-impact portfolio and SOC 2 documents.
+
+Control alignment:
+
+- Information and communication: customer-facing wording is bounded by canonical doctrine.
+- Change management: claims-safe wording is tracked as a governed documentation change.
+- Risk assessment: high-risk claim categories are classified before correction.
+- Monitoring: future customer-facing claims should use the Phase 9B standard.
+
+This traceability does not claim SOC 2 certification or production operating effectiveness.

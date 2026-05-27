@@ -1,3 +1,9 @@
+## 2026-05-27 - Phase 9B Claims-Safe Wording Patch
+
+- Added claims-safe wording standard for customer-facing portfolio, suite, readiness, SOC 2, audit, runtime, enforcement, Vault, SageMaker, ML, trust, intelligence, and evidence language.
+- Added claims-safe boundary language to high-impact portfolio and SOC 2 documents.
+- Preserved no-runtime-authority, no-token-session-authority, no-Vault-authority, no-SageMaker-runtime-authority, no-ML-authority, no-production-enforcement, and SOC 2 non-certification boundaries.
+
 ## 2026-05-27 - Phase 9A Claims Risk Classification Review Gate
 
 - Opened Phase 9A evidence gate to classify customer-facing claims surfaces identified in Phase 9 planning.

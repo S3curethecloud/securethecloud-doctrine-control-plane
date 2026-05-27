@@ -328,3 +328,25 @@ Boundary:
 - SageMaker runtime or ML authority granted: false
 - Production enforcement granted: false
 - SOC 2 certification claimed: false
+
+## Phase 9B - Claims-Safe Wording Patch / Customer-Facing Language Boundary Alignment
+
+Status: Phase 9B / Implementation In Progress
+
+Goal: Add claims-safe wording boundaries to high-impact portfolio and SOC 2 documents after Phase 9A classified customer-facing claim risks.
+
+Evidence:
+
+- docs/claims/CLAIMS_SAFE_WORDING_STANDARD.md
+- docs/claims/evidence/PHASE_9B_CLAIMS_SAFE_WORDING_PATCH_EVIDENCE.md
+- docs/phases/PHASE_9B_CLAIMS_SAFE_WORDING_PATCH_CUSTOMER_FACING_LANGUAGE_BOUNDARY_ALIGNMENT.md
+
+Boundary:
+
+- Product packaging authority changed: false
+- Runtime authority granted: false
+- Token/session authority granted: false
+- Vault authority granted: false
+- SageMaker runtime or ML authority granted: false
+- Production enforcement granted: false
+- SOC 2 certification claimed: false
