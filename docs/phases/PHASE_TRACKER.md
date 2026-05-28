@@ -396,3 +396,30 @@ Boundary:
 - SageMaker runtime or ML authority granted: false
 - Production enforcement granted: false
 - SOC 2 certification claimed: false
+
+## Phase 9E - Downstream Claims Risk Classification / Target Selection Gate
+
+Status: Phase 9E / Target Selection In Progress
+
+Goal: Classify downstream claims risk from the Phase 9D inventory and select the first downstream repository for a later claims-safe wording review.
+
+Selected first target:
+
+- securethecloud-kubernetes-sentinel
+
+Evidence:
+
+- docs/phases/PHASE_9E_DOWNSTREAM_CLAIMS_RISK_CLASSIFICATION_TARGET_SELECTION_GATE.md
+- docs/claims/evidence/PHASE_9E_DOWNSTREAM_CLAIMS_RISK_CLASSIFICATION_TARGET_SELECTION.md
+
+Boundary:
+
+- Downstream files changed: false
+- Customer-facing language changed: false
+- Product packaging changed: false
+- Runtime authority granted: false
+- Token/session authority granted: false
+- Vault authority granted: false
+- SageMaker runtime or ML authority granted: false
+- Production enforcement granted: false
+- SOC 2 certification claimed: false
