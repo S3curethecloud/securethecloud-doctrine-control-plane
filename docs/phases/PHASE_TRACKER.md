@@ -451,3 +451,25 @@ Boundary:
 - Token/session authority granted: false
 - Production enforcement granted: false
 - SOC 2 certification claimed: false
+
+## Phase 9G - SENTINEL Claims-Safe Wording Patch Planning / File Target Selection Gate
+
+Status: Phase 9G / File Target Selection In Progress
+
+Goal: Identify exact securethecloud-kubernetes-sentinel files for a later claims-safe wording patch.
+
+Evidence:
+
+- docs/phases/PHASE_9G_SENTINEL_CLAIMS_SAFE_WORDING_FILE_TARGET_SELECTION_GATE.md
+- docs/claims/evidence/PHASE_9G_SENTINEL_FILE_TARGET_SELECTION_EVIDENCE.md
+
+Boundary:
+
+- Downstream files changed: false
+- Customer-facing language changed: false
+- Admission behavior changed: false
+- Kubernetes behavior changed: false
+- Runtime authority granted: false
+- Token/session authority granted: false
+- Production enforcement granted: false
+- SOC 2 certification claimed: false

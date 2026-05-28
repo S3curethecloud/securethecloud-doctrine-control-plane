@@ -1,3 +1,9 @@
+## 2026-05-27 - Phase 9G SENTINEL File Target Selection Gate
+
+- Opened Phase 9G file target selection gate for SENTINEL downstream claims-safe wording review.
+- Selected exact securethecloud-kubernetes-sentinel candidate files for a later wording plan or patch phase.
+- Preserved no-downstream-file-change, no-customer-facing-language-change, no-admission-behavior-change, no-Kubernetes-behavior-change, no-runtime-authority, no-production-enforcement, and SOC 2 non-certification boundaries.
+
 ## 2026-05-27 - Phase 9F SENTINEL Claims-Safe Wording Planning Gate
 
 - Opened Phase 9F planning gate for SENTINEL downstream claims-safe wording review.
