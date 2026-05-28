@@ -473,3 +473,31 @@ Boundary:
 - Token/session authority granted: false
 - Production enforcement granted: false
 - SOC 2 certification claimed: false
+
+## Phase 9K - SENTINEL Downstream Claims-Safe Wording Closure Record
+
+Status: Phase 9K / Closure Record In Progress
+
+Goal: Record canonical doctrine-control-plane closure for the completed SENTINEL downstream claims-safe wording lane.
+
+Completed SENTINEL lane:
+
+- Phase 9H - SENTINEL Repository First-Read and Patch Plan Gate
+- Phase 9I - SENTINEL Claims-Safe Wording Patch
+- Phase 9J - SENTINEL Claims-Safe Wording Verification and Closure
+
+Evidence:
+
+- docs/phases/PHASE_9K_SENTINEL_DOWNSTREAM_CLAIMS_SAFE_WORDING_CLOSURE_RECORD.md
+- docs/claims/evidence/PHASE_9K_SENTINEL_DOWNSTREAM_CLAIMS_SAFE_WORDING_CLOSURE_RECORD.md
+
+Boundary:
+
+- Downstream files changed: false
+- Customer-facing language changed: false
+- Admission behavior changed: false
+- Kubernetes behavior changed: false
+- Runtime authority granted: false
+- Token/session authority granted: false
+- Production enforcement granted: false
+- SOC 2 certification claimed: false
