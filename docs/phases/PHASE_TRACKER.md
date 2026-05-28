@@ -373,3 +373,26 @@ Boundary:
 - SageMaker runtime or ML authority granted: false
 - Production enforcement granted: false
 - SOC 2 certification claimed: false
+
+## Phase 9D - Customer-Facing Collateral Inventory / Downstream Claims Surface Review Planning Gate
+
+Status: Phase 9D / Planning Gate In Progress
+
+Goal: Inventory downstream repositories and customer-facing collateral surfaces before any claims-safe wording patches outside doctrine-control-plane.
+
+Evidence:
+
+- docs/phases/PHASE_9D_CUSTOMER_FACING_COLLATERAL_INVENTORY_DOWNSTREAM_CLAIMS_SURFACE_REVIEW_PLANNING_GATE.md
+- docs/claims/evidence/PHASE_9D_DOWNSTREAM_CUSTOMER_FACING_CLAIMS_SURFACE_INVENTORY.md
+
+Boundary:
+
+- Downstream files changed: false
+- Customer-facing language changed: false
+- Product packaging changed: false
+- Runtime authority granted: false
+- Token/session authority granted: false
+- Vault authority granted: false
+- SageMaker runtime or ML authority granted: false
+- Production enforcement granted: false
+- SOC 2 certification claimed: false
