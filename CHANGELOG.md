@@ -1,3 +1,10 @@
+## 2026-05-27 - Phase 9D Downstream Claims Surface Inventory
+
+- Opened Phase 9D planning gate to inventory downstream public and customer-facing claims surfaces.
+- Added downstream claims surface inventory across known SecureTheCloud portfolio repositories.
+- Recorded high downstream claim density requiring Phase 9E target-selection review before any downstream wording patch.
+- Preserved no-downstream-file-change, no-customer-facing-language-change, no-runtime-authority, no-token-session-authority, no-Vault-authority, no-SageMaker-runtime-authority, no-ML-authority, no-production-enforcement, and SOC 2 non-certification boundaries.
+
 ## 2026-05-27 - Phase 9C Claims-Safe Wording Verification
 
 - Opened Phase 9C verification gate to confirm Phase 9B claims-safe wording boundaries landed in intended portfolio, SOC 2, and claims-standard surfaces.
