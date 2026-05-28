@@ -423,3 +423,31 @@ Boundary:
 - SageMaker runtime or ML authority granted: false
 - Production enforcement granted: false
 - SOC 2 certification claimed: false
+
+## Phase 9F - SENTINEL Downstream Claims-Safe Wording Planning Gate
+
+Status: Phase 9F / Planning Gate In Progress
+
+Goal: Open a downstream-specific planning gate for SENTINEL claims-safe wording review after Phase 9E selected securethecloud-kubernetes-sentinel as the first target.
+
+Selected target:
+
+- S3curethecloud/securethecloud-kubernetes-sentinel
+- Branch: phase-0-admission-review-contract
+- Observed commit: 3054784
+
+Evidence:
+
+- docs/phases/PHASE_9F_SENTINEL_DOWNSTREAM_CLAIMS_SAFE_WORDING_PLANNING_GATE.md
+- docs/claims/evidence/PHASE_9F_SENTINEL_CLAIMS_SAFE_WORDING_PLANNING_EVIDENCE.md
+
+Boundary:
+
+- Downstream files changed: false
+- Customer-facing language changed: false
+- Admission behavior changed: false
+- Kubernetes behavior changed: false
+- Runtime authority granted: false
+- Token/session authority granted: false
+- Production enforcement granted: false
+- SOC 2 certification claimed: false

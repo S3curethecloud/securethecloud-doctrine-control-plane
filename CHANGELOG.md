@@ -1,3 +1,9 @@
+## 2026-05-27 - Phase 9F SENTINEL Claims-Safe Wording Planning Gate
+
+- Opened Phase 9F planning gate for SENTINEL downstream claims-safe wording review.
+- Recorded securethecloud-kubernetes-sentinel as the first selected downstream target from Phase 9E.
+- Preserved no-downstream-file-change, no-customer-facing-language-change, no-admission-behavior-change, no-Kubernetes-behavior-change, no-runtime-authority, no-production-enforcement, and SOC 2 non-certification boundaries.
+
 ## 2026-05-27 - Phase 9E Downstream Claims Risk Classification
 
 - Opened Phase 9E target-selection gate to classify downstream claims risk from the Phase 9D inventory.
