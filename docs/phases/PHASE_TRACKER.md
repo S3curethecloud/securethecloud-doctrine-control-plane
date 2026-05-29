@@ -501,3 +501,30 @@ Boundary:
 - Token/session authority granted: false
 - Production enforcement granted: false
 - SOC 2 certification claimed: false
+
+## Phase 10 - Blackbox Downstream Claims-Safe Wording Planning Gate
+
+Status: Phase 10 / Planning Gate In Progress
+
+Goal: Open a doctrine-control-plane planning gate for Blackbox downstream claims-safe wording review after the SENTINEL downstream lane closure.
+
+Target downstream repository:
+
+- S3curethecloud/securethecloud-agent-blackbox
+
+Evidence:
+
+- docs/phases/PHASE_10_BLACKBOX_DOWNSTREAM_CLAIMS_SAFE_WORDING_PLANNING_GATE.md
+- docs/claims/evidence/PHASE_10_BLACKBOX_DOWNSTREAM_CLAIMS_SAFE_WORDING_PLANNING_EVIDENCE.md
+
+Boundary:
+
+- Downstream files changed: false
+- Blackbox files changed: false
+- Customer-facing language changed: false
+- Backend/API exposure changed: false
+- Evidence export behavior changed: false
+- Runtime authority granted: false
+- Token/session authority granted: false
+- Production enforcement granted: false
+- SOC 2 certification claimed: false
