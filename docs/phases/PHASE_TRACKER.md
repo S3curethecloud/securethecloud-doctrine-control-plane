@@ -566,3 +566,42 @@ Recommended next step:
 
 - Stop Blackbox claims-safe wording work for now.
 - Return to active platform-building lane.
+
+## Phase 11A - Agent Eval Platform Doctrine Adoption / Phase 2 AI Chaos Harness Boundary Gate
+
+Status: Phase 11A / Doctrine Adoption In Progress
+
+Goal: Register S3curethecloud/securethecloud-agent-eval-platform as a governed Phase 2 AI Chaos Harness / offline evaluation support repository before implementation begins.
+
+Evidence:
+
+- docs/phases/PHASE_11A_AGENT_EVAL_PLATFORM_DOCTRINE_ADOPTION_PHASE_2_AI_CHAOS_HARNESS_BOUNDARY_GATE.md
+- docs/portfolio/PHASE_11A_AGENT_EVAL_PLATFORM_PHASE_2_AI_CHAOS_HARNESS_ADOPTION.md
+
+Boundary:
+
+- Downstream repo changed: false
+- AI Chaos Harness implemented: false
+- Evaluation runtime implemented: false
+- Live adversarial traffic enabled: false
+- Runtime authority granted: false
+- Enforcement authority granted: false
+- Aegis/OPA policy mutation granted: false
+- SENTINEL bypass granted: false
+- Agent Black Box bypass granted: false
+- Backend/API exposure granted: false
+- Token/session authority granted: false
+- Production enforcement granted: false
+- Governance hold released: false
+- SOC 2 certification claimed: false
+
+Custodian rule:
+
+- Adaptive immunity is allowed.
+- Autonomous runtime mutation is not.
+- Agent Eval Platform may produce findings and policy candidates only.
+- Custodian approval is required before any policy update enters release.
+
+Recommended next step:
+
+- Seed local doctrine adoption in securethecloud-agent-eval-platform after this control-plane phase merges.
