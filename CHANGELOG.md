@@ -1,3 +1,9 @@
+## 2026-06-28 - Phase 11C Runtime Core Doctrine Adoption
+
+- Opened Phase 11C to register S3curethecloud/securethecloud-runtime-core as a governed Phase 2 Distributed Immune System runtime substrate lab.
+- Recorded Runtime Core as a local event-driven AI runtime substrate that may demonstrate trace_id-linked intent, retrieval, plan, policy, mock execution, and future evidence events.
+- Preserved no-downstream-repo-change, no-runtime-implementation, no-Black-Box-evidence-storage, no-hash-chain-storage, no-public-API-exposure, no-token/session-authority, no-authorization-authority, no-secret-retrieval, no-Kubernetes-mutation, no-provider-mutation, no-external-provider-calls, no-Sentinel-bypass, no-Aegis/OPA-bypass, no-Agent-Black-Box-bypass, no-runtime-authority, no-enforcement-authority, no-production-enforcement, no-production-traffic-cutover, no-governance-hold-release, and SOC 2 non-certification boundaries.
+
 ## 2026-05-29 - Phase 11A Agent Eval Platform Doctrine Adoption
 
 - Opened Phase 11A to register S3curethecloud/securethecloud-agent-eval-platform as a governed Phase 2 AI Chaos Harness / offline evaluation support repository.

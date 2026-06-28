@@ -605,3 +605,52 @@ Custodian rule:
 Recommended next step:
 
 - Seed local doctrine adoption in securethecloud-agent-eval-platform after this control-plane phase merges.
+
+## Phase 11C - Runtime Core Doctrine Adoption / Phase 2 DIS Runtime Substrate Boundary Gate
+
+Status: Phase 11C / Doctrine Adoption In Progress
+
+Goal: Register S3curethecloud/securethecloud-runtime-core as a governed Phase 2 Distributed Immune System runtime substrate lab before additional runtime-core build phases continue.
+
+Evidence:
+
+- docs/phases/PHASE_11C_RUNTIME_CORE_DOCTRINE_ADOPTION_PHASE_2_DIS_RUNTIME_SUBSTRATE_BOUNDARY_GATE.md
+- docs/portfolio/PHASE_2_RUNTIME_CORE_BASELINE.md
+
+Canonical classification:
+
+- Repository: S3curethecloud/securethecloud-runtime-core
+- Local baseline: sot/RUNTIME_CORE_SOURCE_OF_TRUTH.md
+- Phase 2 role: DIS Runtime Core / Event-Driven AI Runtime Substrate Lab
+- Authority posture: demonstration and engineering validation only
+
+Allowed phrase:
+
+- Runtime Core routes events. Sentinel gates execution. Black Box preserves evidence. Governance approves production authority.
+
+Boundary:
+
+- Downstream repo changed: false
+- Runtime implementation created: false
+- Black Box evidence storage implemented: false
+- Hash-chain storage implemented: false
+- Public API exposure granted: false
+- Token/session authority granted: false
+- Authorization authority granted: false
+- Secret retrieval authority granted: false
+- Kubernetes mutation granted: false
+- Provider mutation granted: false
+- External provider calls granted: false
+- Sentinel bypass granted: false
+- Aegis/OPA bypass granted: false
+- Agent Black Box bypass granted: false
+- Runtime authority granted: false
+- Enforcement authority granted: false
+- Production enforcement granted: false
+- Production traffic cutover granted: false
+- Governance hold released: false
+- SOC 2 certification claimed: false
+
+Recommended next step:
+
+- Seed local doctrine adoption in securethecloud-runtime-core after this control-plane phase merges.
